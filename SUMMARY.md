@@ -5,7 +5,8 @@
 ## Operating systems
 
 * [Linux](operating-systems/linux/README.md)
-  * [Bash](operating-systems/linux/bash.md)
+  * [Bash](operating-systems/linux/bash/README.md)
+    * [Basic commands](operating-systems/linux/bash/basic-commands.md)
 * [Windows](operating-systems/windows/README.md)
   * [Powershell](operating-systems/windows/powershell.md)
 
