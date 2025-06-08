@@ -15,7 +15,7 @@ The `ls` command has a variety of options to customize its output:
 * `-d` - List directories themselves, not their contents
 * `-F` - Append indicator (one of \*/=@|) to entries
 
-## Cd
+## cd
 
 The `cd` command supports several useful options for navigating directories:
 
@@ -57,6 +57,8 @@ The `cp` command has options to change how it works:
 * `-u` - Copy only if the source is newer
 * `-v` - Verbose mode, show files being copied
 
+`cp [source] [dest]` — Copy files or directories
+
 ## mv
 
 The `mv` command has several options to customize its behavior:
@@ -65,7 +67,9 @@ The `mv` command has several options to customize its behavior:
 * `-u` - Move only if the source is newer
 * `-v` - Verbose mode, show files being moved
 
-## rm
+`mv [source] [dest]` — Move or rename files or directories
+
+## rm/rmdir
 
 The `rm` command has options to change how it works:
 
@@ -73,6 +77,11 @@ The `rm` command has options to change how it works:
 * `-i` - Ask before deleting each file
 * `-f` - Force delete without asking
 * `-v` - Verbose mode, show files being removed
+
+⚠️ Be Careful — `rm` is permanent
+
+* Deleted files do **not** go to a trash bin.
+* There's **no undo** unless you're using special file recovery tools.
 
 ## mkdir
 
@@ -106,4 +115,14 @@ man grep
 ```
 
 If you are using Git Bash for Windows, `man` is not supported. Instead, you can use `[command] --help` command. For example, `ls --help`
+
+## whoami
+
+Show current logged-in user
+
+## id
+
+Show user ID and group ID
+
+##
 
