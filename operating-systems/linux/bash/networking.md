@@ -126,3 +126,27 @@ The `scp` command supports various options to customize its behavior:
 scp file.txt user@example.com:/home/user/
 ```
 
+## netdiscover
+
+The `netdiscover` command is a **network reconnaissance tool** used to discover **live hosts** (devices) on a local network by performing **ARP (Address Resolution Protocol) scans**. It’s commonly used in penetration testing or network troubleshooting to quickly find IP and MAC addresses of devices connected to a subnet.
+
+```bash
+netdiscover [options]
+```
+
+| Option           | Description                                                       |
+| ---------------- | ----------------------------------------------------------------- |
+| `-i <interface>` | Use a specific network interface (e.g., `eth0`, `wlan0`).         |
+| `-r <range>`     | Scan a specific IP range or subnet (e.g., `192.168.1.0/24`).      |
+| `-p`             | Passive mode (listen only, no ARP requests sent).                 |
+| `-s <time>`      | Time to sleep between each request (in microseconds).             |
+| `-c <count>`     | Number of times to send ARP requests to each host.                |
+| `-n`             | Do not resolve MAC addresses to vendor names.                     |
+| `-f`             | Enable fast mode (send fewer packets, quicker but less accurate). |
+| `-m <mac>`       | Filter results by MAC address or vendor (e.g., `00:11:22:*`).     |
+| `-l`             | Enable long output format (more detailed).                        |
+| `-S`             | Enable static scan mode (do not update screen in real-time).      |
+| `-N`             | Do not print header (useful for scripts or logging).              |
+| `-b`             | Enable beep sound on each new host found.                         |
+| `-h`             | Show help message with all options.                               |
+
