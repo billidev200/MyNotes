@@ -86,6 +86,17 @@
     * [SMB/445/139 Enumeration](penetration-testing/footprinting/active-reconnaissance-or-enumeration/smb-445-139-enumeration.md)
     * [Netbios/137 Enumeration](penetration-testing/footprinting/active-reconnaissance-or-enumeration/netbios-137-enumeration.md)
     * [DNS/53 Enumeration](penetration-testing/footprinting/active-reconnaissance-or-enumeration/dns-53-enumeration.md)
+* [Password Cracking](penetration-testing/password-cracking/README.md)
+  * [Wifi](penetration-testing/password-cracking/wifi.md)
+  * [Hash/Zips Offline](penetration-testing/password-cracking/hash-zips-offline/README.md)
+    * [John the Ripper](penetration-testing/password-cracking/hash-zips-offline/john-the-ripper.md)
+    * [Hashcat](penetration-testing/password-cracking/hash-zips-offline/hashcat.md)
+    * [Ophcrack](penetration-testing/password-cracking/hash-zips-offline/ophcrack.md)
+    * [HashSuit](penetration-testing/password-cracking/hash-zips-offline/hashsuit.md)
+  * [Service Brute-Force Online](penetration-testing/password-cracking/service-brute-force-online/README.md)
+    * [Hydra](penetration-testing/password-cracking/service-brute-force-online/hydra.md)
+    * [Ncrack](penetration-testing/password-cracking/service-brute-force-online/ncrack.md)
+    * [Medusa](penetration-testing/password-cracking/service-brute-force-online/medusa.md)
 
 ## Tools
 
