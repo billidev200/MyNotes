@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Threat Hunting](README.md)
+* [Page](README.md)
+* [Threat Hunting](<README (1).md>)
 
 ## Operating systems
 
@@ -19,6 +20,9 @@
     * [Tracks](operating-systems/linux/bash/tracks.md)
 * [Windows](operating-systems/windows/README.md)
   * [Powershell](operating-systems/windows/powershell.md)
+  * [Active Directory](operating-systems/windows/active-directory/README.md)
+    * [Kerberos ](operating-systems/windows/active-directory/kerberos.md)
+    * [NetNTLM Legacy](operating-systems/windows/active-directory/netntlm-legacy.md)
 
 ## Penetration Testing
 
@@ -101,3 +105,9 @@
 ## Tools
 
 * [AI Tools](tools/ai-tools.md)
+
+## Certs
+
+* [Security+ (SY0‑701](certs/security+-sy0-701.md)
+* [Pentest+](certs/pentest+.md)
+* [eJPT](certs/ejpt.md)
