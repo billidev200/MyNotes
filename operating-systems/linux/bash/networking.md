@@ -195,3 +195,17 @@ netdiscover [options]
 | `-b`             | Enable beep sound on each new host found.                         |
 | `-h`             | Show help message with all options.                               |
 
+***
+
+## Host
+
+The `host` command is a simple DNS lookup utility available on **Linux, macOS**, and other Unix-like systems. It allows you to query **DNS records** for a domain — such as IP addresses, mail servers, name servers, etc.
+
+| Command                    | Description                                                           |
+| -------------------------- | --------------------------------------------------------------------- |
+| `host example.com`         | Basic A/AAAA record lookup (IPv4/IPv6)                                |
+| `host -t MX example.com`   | Shows mail exchange (MX) records                                      |
+| `host -t NS example.com`   | Shows name servers (NS)                                               |
+| `host -t TXT example.com`  | Shows TXT records (SPF, verification, etc.)                           |
+| `host -a example.com`      | Performs an "all records" query                                       |
+| `host example.com 8.8.8.8` | <p></p><p>Queries Google's public DNS (instead of system default)</p> |
