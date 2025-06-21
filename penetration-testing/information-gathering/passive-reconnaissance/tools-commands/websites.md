@@ -30,6 +30,9 @@ description: Websites used for passive reconnaissance
 
 ## Wayback Machine
 
-
-
 {% embed url="https://archive.org/web/" %}
+
+***
+
+{% embed url="https://dnsdumpster.com/" %}
+
