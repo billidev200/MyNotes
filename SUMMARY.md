@@ -102,6 +102,7 @@
     * [Hydra](penetration-testing/password-cracking/service-brute-force-online/hydra.md)
     * [Ncrack](penetration-testing/password-cracking/service-brute-force-online/ncrack.md)
     * [Medusa](penetration-testing/password-cracking/service-brute-force-online/medusa.md)
+* [Databases - Exploits - CVE](penetration-testing/databases-exploits-cve.md)
 
 ## Tools
 
