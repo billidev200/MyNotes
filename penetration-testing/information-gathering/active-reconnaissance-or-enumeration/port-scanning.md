@@ -254,13 +254,54 @@ nmap --script ftp-* (runs all scripts)
 
 Save nmap scans xml reports
 
-{% embed url="https://github.com/SabyasachiRana/WebMap" %}
+{% embed url="https://www.youtube.com/watch?embeds_referring_euri=https://cdn.iframe.ly/&source_ve_path=MjM4NTE&time_continue=603&v=SoEIDNnOCGY" %}
 
-{% embed url="https://www.youtube.com/watch?pp=ygUGV0VCTUFQ&t=603s&v=SoEIDNnOCGY" %}
+{% embed url="https://github.com/SabyasachiRana/WebMap" %}
 
 ***
 
-## Rustscan
+## massscan
+
+⚡ **Masscan** – The Fastest Port Scanner
+
+**Masscan** is a **lightning-fast, active** network port scanner, similar to Nmap, but designed for **high-speed Internet-wide scanning**. It can scan the entire IPv4 address space in **minutes** using a custom TCP/IP stack.
+
+🚀 Key Features
+
+| Feature                         | Description                                    |
+| ------------------------------- | ---------------------------------------------- |
+| ⚡ **Extremely fast**            | Can scan millions of IPs per second            |
+| 🔧 Custom TCP/IP stack          | Doesn’t rely on OS networking – very efficient |
+| 🔍 Port scan only               | Does **not do service/version detection**      |
+| 🛠️ Output compatible with Nmap | Can generate XML output like Nmap              |
+
+💻 Basic Syntax
+
+```bash
+masscan -p<ports> <target-range> --rate <packets-per-second>
+```
+
+📘 **Masscan Command Reference Table**
+
+| 🔢 # | 📝 **Purpose**                           | 💻 **Command**                                      |
+| ---: | ---------------------------------------- | --------------------------------------------------- |
+|    1 | Scan **port 80** on a subnet             | `sudo masscan -p80 192.168.1.0/24`                  |
+|    2 | Scan **multiple ports**                  | `sudo masscan -p22,80,443 192.168.1.0/24`           |
+|    3 | Scan **all ports (0–65535)**             | `sudo masscan -p0-65535 192.168.1.0/24`             |
+|    4 | Scan **entire IPv4 Internet** (⚠️)       | `sudo masscan -p80 0.0.0.0/0 --rate 100000`         |
+|    5 | Set **custom rate**                      | `sudo masscan -p80 192.168.1.0/24 --rate 5000`      |
+|    6 | Output to **grepable text file**         | `sudo masscan -p80 192.168.1.0/24 -oG output.txt`   |
+|    7 | Output to **XML (Nmap-compatible)**      | `sudo masscan -p80 192.168.1.0/24 -oX output.xml`   |
+|    8 | Scan from a **list of targets**          | `sudo masscan -p80 -iL targets.txt`                 |
+|    9 | Specify **network interface**            | `sudo masscan -p80 192.168.1.0/24 --interface eth0` |
+|   10 | Scan and grab **service banners** (beta) | `sudo masscan -p80 192.168.1.0/24 --banners`        |
+|   11 | Enable **debug output**                  | `sudo masscan -p80 192.168.1.0/24 --debug`          |
+|   12 | Scan and output in **binary format**     | `sudo masscan -p80 192.168.1.0/24 -oB results.bin`  |
+|   13 | Read and convert **binary output**       | `masscan --readscan results.bin -oX output.xml`     |
+
+***
+
+## rustscan
 
 
 
