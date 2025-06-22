@@ -1,10 +1,21 @@
-# DNS/53 Enumeration
+# DNS/53 Enumeration - Interrogation
 
-## Dig command
+## Nmap Scripts
 
 ***
 
-## Nmap Scripts
+## Host
+
+The `host` command is a simple DNS lookup utility available on **Linux, macOS**, and other Unix-like systems. It allows you to query/search **DNS records** for a domain — such as IP addresses, mail servers, name servers, etc.
+
+| Command                    | Description                                                           |
+| -------------------------- | --------------------------------------------------------------------- |
+| `host example.com`         | Basic A/AAAA record lookup (IPv4/IPv6)                                |
+| `host -t MX example.com`   | Shows mail exchange (MX) records                                      |
+| `host -t NS example.com`   | Shows name servers (NS)                                               |
+| `host -t TXT example.com`  | Shows TXT records (SPF, verification, etc.)                           |
+| `host -a example.com`      | Performs an "all records" query                                       |
+| `host example.com 8.8.8.8` | <p></p><p>Queries Google's public DNS (instead of system default)</p> |
 
 ***
 
@@ -68,6 +79,8 @@ dnsrecon -d example.com
 
 ## DNS Records
 
-<figure><img src="../../../.gitbook/assets/616eb649d651f3d5247443ea_Screen Shot 2021-10-19 at 7.56.23 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/616eb649d651f3d5247443ea_Screen Shot 2021-10-19 at 7.56.23 AM.png" alt=""><figcaption></figcaption></figure>
 
 [^1]: 

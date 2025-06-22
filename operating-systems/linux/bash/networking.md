@@ -209,3 +209,18 @@ The `host` command is a simple DNS lookup utility available on **Linux, macOS**,
 | `host -t TXT example.com`  | Shows TXT records (SPF, verification, etc.)                           |
 | `host -a example.com`      | Performs an "all records" query                                       |
 | `host example.com 8.8.8.8` | <p></p><p>Queries Google's public DNS (instead of system default)</p> |
+
+## Dig
+
+The `dig` command (short for **Domain Information Groper**) is a powerful DNS lookup tool used to **query DNS servers** and **troubleshoot domain name system issues**.
+
+| Command      | What It Does                    | Example                     |
+| ------------ | ------------------------------- | --------------------------- |
+| `dig A`      | Get IPv4 address                | `dig A example.com`         |
+| `dig AAAA`   | Get IPv6 address                | `dig AAAA example.com`      |
+| `dig MX`     | Mail servers                    | `dig MX example.com`        |
+| `dig NS`     | Name servers                    | `dig NS example.com`        |
+| `dig TXT`    | Get TXT records (SPF, etc.)     | `dig TXT example.com`       |
+| `dig CNAME`  | Canonical name (alias)          | `dig CNAME www.example.com` |
+| `dig ANY`    | Get all available record types  | `dig ANY example.com`       |
+| `dig +short` | Output only result (clean view) | `dig example.com +short`    |

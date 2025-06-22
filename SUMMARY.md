@@ -32,6 +32,8 @@
     * [Tools - Commands](penetration-testing/information-gathering/passive-reconnaissance/tools-commands/README.md)
       * [Websites](penetration-testing/information-gathering/passive-reconnaissance/tools-commands/websites.md)
     * [Common Website files](penetration-testing/information-gathering/passive-reconnaissance/common-website-files.md)
+    * [DNS/53 Enumeration Passive](penetration-testing/information-gathering/passive-reconnaissance/dns-53-enumeration-passive.md)
+    * [Subdomain Passive Enumeration](penetration-testing/information-gathering/passive-reconnaissance/subdomain-passive-enumeration.md)
   * [Αctive reconnaissance | Enumeration ](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/README.md)
     * [Port Scanning](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/port-scanning.md)
     * [WAF/IDS/IPS Enumaration/Detection](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/waf-ids-ips-enumaration-detection.md)
@@ -90,7 +92,9 @@
     * [MySQL/3306 Enumeration](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/mysql-3306-enumeration.md)
     * [SMB/445/139 Enumeration](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/smb-445-139-enumeration.md)
     * [Netbios/137 Enumeration](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/netbios-137-enumeration.md)
-    * [DNS/53 Enumeration](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/dns-53-enumeration.md)
+    * [DNS/53 Enumeration - Interrogation](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/dns-53-enumeration-interrogation/README.md)
+      * [DNS vulnerabilities](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/dns-53-enumeration-interrogation/dns-vulnerabilities/README.md)
+        * [Zone Transfer](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/dns-53-enumeration-interrogation/dns-vulnerabilities/zone-transfer.md)
 * [Password Cracking](penetration-testing/password-cracking/README.md)
   * [Wifi](penetration-testing/password-cracking/wifi.md)
   * [Hash/Zips Offline](penetration-testing/password-cracking/hash-zips-offline/README.md)
@@ -102,7 +106,7 @@
     * [Hydra](penetration-testing/password-cracking/service-brute-force-online/hydra.md)
     * [Ncrack](penetration-testing/password-cracking/service-brute-force-online/ncrack.md)
     * [Medusa](penetration-testing/password-cracking/service-brute-force-online/medusa.md)
-* [Databases - Exploits - CVE](penetration-testing/databases-exploits-cve.md)
+* [Databases - Exploits - CVE - Pass](penetration-testing/databases-exploits-cve-pass.md)
 
 ## Tools
 
