@@ -28,6 +28,7 @@
 
 * [Information Gathering](penetration-testing/information-gathering/README.md)
   * [Passive Reconnaissance](penetration-testing/information-gathering/passive-reconnaissance/README.md)
+    * [OSINT](penetration-testing/information-gathering/passive-reconnaissance/osint.md)
     * [Google Dorking](penetration-testing/information-gathering/passive-reconnaissance/google-dorking.md)
     * [Tools - Commands](penetration-testing/information-gathering/passive-reconnaissance/tools-commands/README.md)
       * [Websites](penetration-testing/information-gathering/passive-reconnaissance/tools-commands/websites.md)
@@ -43,7 +44,7 @@
       * [Google Dorking](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/website-enumeration/google-dorking.md)
       * [HTTP 80/443 Enumeration](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/website-enumeration/http-80-443-enumeration.md)
       * [WordPress Enumeration](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/website-enumeration/wordpress-enumeration.md)
-      * [Web Directory/Subdomain Enumeration](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/website-enumeration/web-directory-subdomain-enumeration.md)
+      * [Web Directory/Subdomain Enumeration/Files](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/website-enumeration/web-directory-subdomain-enumeration-files.md)
       * [Fuzzing](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/website-enumeration/fuzzing.md)
       * [Web Vulnerabilities](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/website-enumeration/web-vulnerabilities/README.md)
         * [File Upload](penetration-testing/information-gathering/active-reconnaissance-or-enumeration/website-enumeration/web-vulnerabilities/file-upload.md)
