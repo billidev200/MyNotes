@@ -27,3 +27,5 @@
 **Footprinting** is a **specific part of Information Gathering** where the goal is to **collect detailed information about a specific target** — like a company, website, or server — **before launching an attack**.
 
 Think of footprinting as **drawing a blueprint** of the target's digital presence.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
