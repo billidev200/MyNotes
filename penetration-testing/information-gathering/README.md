@@ -28,4 +28,28 @@
 
 Think of footprinting as **drawing a blueprint** of the target's digital presence.
 
+**OS fingerprinting** is the process of determining the **operating system (OS)** running on a remote device or host by analyzing how it responds to certain network probes or traffic.
+
+There are two main types:
+
+#### 🔍 1. **Active OS Fingerprinting**
+
+* **How it works:** Sends specially crafted packets to a target and analyzes the responses.
+* **Tools:** `Nmap`, `XProbe`, `NetScanTools`
+* **Example:** Sending a TCP packet with unusual flags and seeing how the host responds. Different OSes respond differently.
+* **Pros:** Fast and accurate
+* **Cons:** Noisy (can be detected by intrusion detection systems)
+
+***
+
+#### 🕵️ 2. **Passive OS Fingerprinting**
+
+* **How it works:** Observes traffic passively (without sending packets) and analyzes existing data such as TTL, TCP window size, and options.
+* **Tools:** `p0f`, `Wireshark`, `Satori`
+* **Example:** Sniffing network traffic and inferring OS from the characteristics of packets already being sent.
+* **Pros:** Stealthy, undetectable
+* **Cons:** Less accurate, requires ongoing traffic
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
