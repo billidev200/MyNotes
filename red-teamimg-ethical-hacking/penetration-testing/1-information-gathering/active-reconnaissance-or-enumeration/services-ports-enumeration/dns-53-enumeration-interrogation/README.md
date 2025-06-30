@@ -1,4 +1,29 @@
-# DNS/53 Enumeration Passive
+# DNS/53 Enumeration - Interrogation
+
+## Nmap Scripts
+
+***
+
+## Host
+
+The `host` command is a simple DNS lookup utility available on **Linux, macOS**, and other Unix-like systems. It allows you to query/search **DNS records** for a domain — such as IP addresses, mail servers, name servers, etc.
+
+| Command                    | Description                                                           |
+| -------------------------- | --------------------------------------------------------------------- |
+| `host example.com`         | Basic A/AAAA record lookup (IPv4/IPv6)                                |
+| `host -t MX example.com`   | Shows mail exchange (MX) records                                      |
+| `host -t NS example.com`   | Shows name servers (NS)                                               |
+| `host -t TXT example.com`  | Shows TXT records (SPF, verification, etc.)                           |
+| `host -a example.com`      | Performs an "all records" query                                       |
+| `host example.com 8.8.8.8` | <p></p><p>Queries Google's public DNS (instead of system default)</p> |
+
+***
+
+## Dnsdumpster
+
+{% embed url="https://dnsdumpster.com/" %}
+
+***
 
 ## Nslookup
 
@@ -13,82 +38,7 @@ By default, [`nslookup` ](#user-content-fn-1)[^1][uses ](#user-content-fn-1)[^1]
 <pre class="language-bash"><code class="lang-bash"><strong>nslookup -port=5353 example.com
 </strong></code></pre>
 
-<details>
-
-<summary>Querying specific DNS record types</summary>
-
-A Record (IPv4 Address
-
-```bash
-nslookup -type=A example.com
-```
-
-AAAA Record (IPv6 Address)
-
-```bash
-nslookup -type=AAAA example.com
-```
-
-MX Record (Mail Exchange Servers)
-
-```bash
-nslookup -type=MX example.com
-```
-
-NS Record (Name Servers)
-
-```bash
-nslookup -type=NS example.com
-```
-
-TXT Record (Text Records, e.g., SPF, DKIM, DMARC)
-
-```bash
-nslookup -type=TXT example.com
-```
-
-CNAME Record (Canonical Name, alias records)
-
-```bash
-nslookup -type=CNAME sub.example.com
-```
-
-SOA Record (Start of Authority)
-
-```bash
-nslookup -type=SOA example.com
-```
-
-PTR Record (Reverse Lookup - IP to Domain):
-
-```bash
-nslookup -type=PTR 8.8.8.8
-```
-
-ANY Record (Fetches All Available DNS Records):
-
-```bash
-nslookup -type=ANY example.com
-```
-
-</details>
-
-## **DNSdumpster**
-
-{% embed url="https://dnsdumpster.com/" %}
-
-## Host
-
-The `host` command is a simple DNS lookup utility available on **Linux, macOS**, and other Unix-like systems. It allows you to query/search **DNS records** for a domain — such as IP addresses, mail servers, name servers, etc.
-
-| Command                    | Description                                                           |
-| -------------------------- | --------------------------------------------------------------------- |
-| `host example.com`         | Basic A/AAAA record lookup (IPv4/IPv6)                                |
-| `host -t MX example.com`   | Shows mail exchange (MX) records                                      |
-| `host -t NS example.com`   | Shows name servers (NS)                                               |
-| `host -t TXT example.com`  | Shows TXT records (SPF, verification, etc.)                           |
-| `host -a example.com`      | Performs an "all records" query                                       |
-| `host example.com 8.8.8.8` | <p></p><p>Queries Google's public DNS (instead of system default)</p> |
+***
 
 ## dnsrecon
 
@@ -129,8 +79,8 @@ dnsrecon -d example.com
 
 ## DNS Records
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/616eb649d651f3d5247443ea_Screen Shot 2021-10-19 at 7.56.23 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/616eb649d651f3d5247443ea_Screen Shot 2021-10-19 at 7.56.23 AM.png" alt=""><figcaption></figcaption></figure>
 
 [^1]: 
