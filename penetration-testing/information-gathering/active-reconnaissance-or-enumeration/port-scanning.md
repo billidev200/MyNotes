@@ -181,8 +181,20 @@ nmap  --scripts vulners $ipAddress
 Show Version
 
 ```bash
+nmap -sV --version-intensity 5 target-ip
+```
+
+```bash
 nmap -sV $ipAddress
 ```
+
+| Intensity Level | Description             |
+| --------------- | ----------------------- |
+| 0               | No version detection    |
+| 1               | Light scan (fast)       |
+| 2-6             | Moderate levels         |
+| 7               | Default (detailed scan) |
+| 8-9             | Very intense, slow scan |
 
 banner grabbing
 
@@ -194,6 +206,12 @@ Show Operating System
 
 ```bash
 nmap -O $ipAddress
+```
+
+**`osscan-guess`** is an option in Nmap that **enables aggressive OS detection guessing**.
+
+```bash
+nmap -O --osscan-guess target-ip
 ```
 
 </details>
