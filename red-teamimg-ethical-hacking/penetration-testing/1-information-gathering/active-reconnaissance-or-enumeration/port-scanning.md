@@ -266,6 +266,15 @@ nmap --script ftp-* (runs all scripts)
 
 </details>
 
+**Scan saving**
+
+| Format   | Nmap Option | Metasploit Support |
+| -------- | ----------- | ------------------ |
+| **XML**  | `-oX`       | ✅ Fully supported  |
+| Normal   | `-oN`       | ❌ Not supported    |
+| Grepable | `-oG`       | ❌ Not supported    |
+| JSON     | `-oJ`       | ❌ Not supported    |
+
 ***
 
 ## **WebMap**
