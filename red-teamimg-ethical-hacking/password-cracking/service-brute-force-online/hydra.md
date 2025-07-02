@@ -6,6 +6,12 @@
 hydra [options] [target] [module]
 ```
 
+```
+hydra [options] ftp://x.x.x.x [module]
+or
+hydra [options] x.x.x.x ftp
+```
+
 ## Modules
 
 | Module name      | Service / Protocol                          |

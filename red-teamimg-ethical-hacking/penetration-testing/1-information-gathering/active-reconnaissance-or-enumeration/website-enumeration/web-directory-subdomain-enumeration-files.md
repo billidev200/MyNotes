@@ -1,4 +1,6 @@
-# Web Directory/Subdomain Enumeration
+# Web Directory/Subdomain Enumeration/Files
+
+<figure><img src="../../../../../.gitbook/assets/HttpStatusCode (3).png" alt=""><figcaption></figcaption></figure>
 
 ## gobuster
 
