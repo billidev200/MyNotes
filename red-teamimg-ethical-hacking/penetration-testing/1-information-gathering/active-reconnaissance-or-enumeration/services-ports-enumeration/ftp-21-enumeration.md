@@ -45,3 +45,13 @@ nmap -p {FTP PORT} --script ftp-anon,ftp-anon <target>
 | **ftp-version.nse**           | **Detects the FTP server version.**                                       |
 | **ftp-vuln-cve2010-4221.nse** | **Checks for CVE-2010-4221 vulnerability in certain FTP servers.**        |
 
+## Metasploit Auxiliary modules
+
+| Module Name                            | Description                                                |
+| -------------------------------------- | ---------------------------------------------------------- |
+| `auxiliary/scanner/ftp/ftp_version`    | Detect FTP server version and banner                       |
+| `auxiliary/scanner/ftp/anonymous`      | Check for anonymous FTP login allowed                      |
+| `auxiliary/scanner/ftp/ftp_login`      | Brute force FTP login with a user/pass list                |
+| `auxiliary/scanner/ftp/ftp_login_enum` | Enumerate valid FTP usernames (user enumeration)           |
+| `auxiliary/scanner/ftp/ftp_syst`       | Get FTP system info (SYST command)                         |
+| `auxiliary/scanner/ftp/ftp_list`       | Enumerate directory listing if anonymous access is allowed |
