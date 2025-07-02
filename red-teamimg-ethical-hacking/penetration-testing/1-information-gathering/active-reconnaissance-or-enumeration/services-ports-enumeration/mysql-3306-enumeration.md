@@ -43,3 +43,7 @@ nmap -p {MySQL PORT} --script mysql-brute,mysql-enum <target>
 | mysql-users.nse             | Enumerates MySQL user accounts.                                       |
 | mysql-variables.nse         | Lists MySQL system variables and settings.                            |
 | mysql-vuln-cve2012-2122.nse | Checks for MySQL authentication bypass vulnerability (CVE-2012-2122). |
+
+## Metasploit Auxiliary
+
+<figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
