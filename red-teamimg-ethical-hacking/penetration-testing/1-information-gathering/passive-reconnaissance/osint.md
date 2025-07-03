@@ -16,6 +16,12 @@ Helps you find out what social media platforms someone is using by entering a us
 
 {% embed url="https://osintframework.com/" %}
 
+## Wigle
+
+Find wirless networks on the map by ssid,bissd or location
+
+{% embed url="https://wigle.net/index" %}
+
 ## &#x20;Flight Radar 24
 
 {% embed url="https://www.flightradar24.com/multiview/34.8,27.73/6" %}
