@@ -115,6 +115,8 @@
       * [FTP](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/services/ftp.md)
       * [MySQL](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/services/mysql.md)
       * [SSH](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/services/ssh.md)
+    * [Windows Vulnerabilities](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/windows-vulnerabilities.md)
+    * [Linux Vulnerabilities](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/linux-vulnerabilities.md)
   * [3 Post-Exploitation](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/README.md)
     * [Metasploit](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/metasploit/README.md)
       * [Meterpreter](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/metasploit/meterpreter.md)
