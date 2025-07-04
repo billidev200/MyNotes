@@ -63,6 +63,7 @@
   * [2 - Exploitation](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/README.md)
     * [Website tools](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/website-tools.md)
     * [Metasploit](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/metasploit.md)
+    * [Searchsploit](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/searchsploit.md)
     * [RevShells](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/revshells/README.md)
       * [File Upload](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/revshells/file-upload.md)
       * [MSFvenom](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/revshells/msfvenom.md)
@@ -135,8 +136,8 @@
     * [Hydra](red-teamimg-ethical-hacking/password-cracking/service-brute-force-online/hydra.md)
     * [Ncrack](red-teamimg-ethical-hacking/password-cracking/service-brute-force-online/ncrack.md)
     * [Medusa](red-teamimg-ethical-hacking/password-cracking/service-brute-force-online/medusa.md)
-* [Stay Anoymous](red-teamimg-ethical-hacking/stay-anoymous.md)
 * [Databases - Exploits - CVE - Pass](red-teamimg-ethical-hacking/databases-exploits-cve-pass.md)
+* [Stay Anoymous](red-teamimg-ethical-hacking/stay-anoymous.md)
 
 ## blue team
 
