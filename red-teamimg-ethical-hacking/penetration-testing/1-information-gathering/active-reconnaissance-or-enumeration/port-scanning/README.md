@@ -242,8 +242,12 @@ nmap --script-updatedb
 
 <summary>Using script</summary>
 
+```
+nmap -sC   (Runs defualt scripts)
+```
+
 ```bash
-qnmap --script scriptexmaple or script1 script2
+nmap --script scriptexmaple or script1 script2
 ```
 
 ```bash
