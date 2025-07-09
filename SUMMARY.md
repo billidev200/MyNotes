@@ -127,6 +127,7 @@
   * [3 Post-Exploitation](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/README.md)
     * [Metasploit](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/metasploit/README.md)
       * [Meterpreter](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/metasploit/meterpreter.md)
+    * [Privilege escalation](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/privilege-escalation.md)
     * [Services](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/services/README.md)
       * [FTP](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/services/ftp.md)
       * [MySQL](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/services/mysql.md)
