@@ -42,4 +42,4 @@ Penetration testing (often called **pen testing** or **ethical hacking**) is a s
 
 ***
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>

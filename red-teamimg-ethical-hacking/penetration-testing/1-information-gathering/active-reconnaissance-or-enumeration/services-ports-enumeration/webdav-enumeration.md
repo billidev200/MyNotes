@@ -41,7 +41,7 @@ curl -v -X OPTIONS http://target/
 
 1. Test Dav connection
 
-<figure><img src="../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Connect with to WebDav
 
@@ -123,7 +123,7 @@ curl -X PROPFIND http://target/webdav/ -H "Depth: 1"
 
 * auxiliary/scanner/http/webdav\_scanner
 
-<figure><img src="../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

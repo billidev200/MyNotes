@@ -150,8 +150,11 @@
     * [Hydra](red-teamimg-ethical-hacking/password-cracking/service-brute-force-online/hydra.md)
     * [Ncrack](red-teamimg-ethical-hacking/password-cracking/service-brute-force-online/ncrack.md)
     * [Medusa](red-teamimg-ethical-hacking/password-cracking/service-brute-force-online/medusa.md)
-* [Databases - Exploits - CVE - Pass](red-teamimg-ethical-hacking/databases-exploits-cve-pass.md)
+  * [Password Leaks DBs](red-teamimg-ethical-hacking/password-cracking/password-leaks-dbs.md)
 * [Stay Anoymous](red-teamimg-ethical-hacking/stay-anoymous.md)
+* [Vulnerabilities 101](red-teamimg-ethical-hacking/vulnerabilities-101/README.md)
+  * [CVSS - VPS](red-teamimg-ethical-hacking/vulnerabilities-101/cvss-vps.md)
+  * [Databases - Exploits - CVE](red-teamimg-ethical-hacking/vulnerabilities-101/databases-exploits-cve.md)
 
 ## blue team
 
