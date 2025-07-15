@@ -14,7 +14,7 @@ First introduced in 2005, the Common Vulnerability Scoring System (or CVSS) is a
 
 In fact, there are so many variables that you have to use a [calculator ](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator)to figure out the score using this framework. A vulnerability is given a classification (out of five) depending on the score that is has been assigned. I have put the Qualitative Severity Rating Scale and their score ranges into the table below.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 However, CVSS is not a magic bullet. Let's analyse some of the advantages and disadvantages of CVSS in the table below:
@@ -22,7 +22,7 @@ However, CVSS is not a magic bullet. Let's analyse some of the advantages and di
 
 ### &#x20; advantages and disadvantages
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## &#x20;Vulnerability Priority Rating (VPR)
 
@@ -32,8 +32,8 @@ Unlike CVSS, VPR scoring takes into account the relevancy of a vulnerability. Fo
 
 VPR uses a similar scoring range as CVSS, which I have also put into the table below. However, two notable differences are that VPR does not have a _"None/Informational"_ category, and because VPR uses a different scoring method, the same vulnerability will have a different score using VPR than when using CVSS.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20; advantages and disadvantages
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
