@@ -41,7 +41,7 @@ curl -v -X OPTIONS http://target/
 
 1. Test Dav connection
 
-<figure><img src="../../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Connect with to WebDav
 
@@ -65,7 +65,7 @@ Based of the results of davtest we can see what we can upload and execute
 Based of the succeed files results we can create a reverse shell payload Examle if asp or php succeed means it support that file and that means we can use it to create a payload
 {% endhint %}
 
-<figure><img src="../../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Next we use the cadaver Utility to upload our payload
 
@@ -123,7 +123,7 @@ curl -X PROPFIND http://target/webdav/ -H "Depth: 1"
 
 * auxiliary/scanner/http/webdav\_scanner
 
-<figure><img src="../../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

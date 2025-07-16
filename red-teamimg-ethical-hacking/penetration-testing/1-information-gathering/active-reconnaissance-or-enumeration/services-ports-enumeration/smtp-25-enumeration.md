@@ -4,4 +4,4 @@ SMTP (Simple Mail Transfer Protocol) uses several ports, but port 587 is the sta
 
 if we found users and ssh is open we can bruteforce
 
-<figure><img src="../../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

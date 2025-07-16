@@ -135,9 +135,13 @@
     * [Pash the Hash](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/pash-the-hash/README.md)
       * [SMB](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/pash-the-hash/smb.md)
       * [WinRM](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/pash-the-hash/winrm.md)
+    * [Credential Dumping](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/credential-dumping/README.md)
+      * [Windows](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/credential-dumping/windows.md)
+      * [Linux](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/credential-dumping/linux.md)
     * [Privilege escalation](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/privilege-escalation/README.md)
       * [Win](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/privilege-escalation/win.md)
       * [Linux](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/privilege-escalation/linux.md)
+    * [%TEMP%](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/temp.md)
     * [Lateral Movement](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/lateral-movement.md)
     * [Services](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/services/README.md)
       * [FTP](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/services/ftp.md)
@@ -159,6 +163,8 @@
 * [Vulnerabilities 101](red-teamimg-ethical-hacking/vulnerabilities-101/README.md)
   * [CVSS - VPS](red-teamimg-ethical-hacking/vulnerabilities-101/cvss-vps.md)
   * [Databases - Exploits - CVE](red-teamimg-ethical-hacking/vulnerabilities-101/databases-exploits-cve.md)
+* [Phising](red-teamimg-ethical-hacking/phising.md)
+* [Social engineering](red-teamimg-ethical-hacking/social-engineering.md)
 
 ## blue team
 
