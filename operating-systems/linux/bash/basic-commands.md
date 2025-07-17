@@ -15,6 +15,15 @@ The `ls` command has a variety of options to customize its output:
 * `-d` - List directories themselves, not their contents
 * `-F` - Append indicator (one of \*/=@|) to entries
 
+```bash
+ls -alps
+```
+
+* `-a`: Show **all files**, including **hidden files** (those starting with `.`)
+* `-l`: Use **long listing format** (permissions, owner, size, etc.)
+* `-p`: Add `/` to the **end of directory names**
+* `-s`: Show **size (in blocks)** of each file or directory
+
 ## cd
 
 The `cd` command supports several useful options for navigating directories:
