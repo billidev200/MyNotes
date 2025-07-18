@@ -22,7 +22,7 @@ However, CVSS is not a magic bullet. Let's analyse some of the advantages and di
 
 ### &#x20; advantages and disadvantages
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## &#x20;Vulnerability Priority Rating (VPR)
 
@@ -32,7 +32,7 @@ Unlike CVSS, VPR scoring takes into account the relevancy of a vulnerability. Fo
 
 VPR uses a similar scoring range as CVSS, which I have also put into the table below. However, two notable differences are that VPR does not have a _"None/Informational"_ category, and because VPR uses a different scoring method, the same vulnerability will have a different score using VPR than when using CVSS.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20; advantages and disadvantages
 
