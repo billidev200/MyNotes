@@ -22,7 +22,7 @@ However, CVSS is not a magic bullet. Let's analyse some of the advantages and di
 
 ### &#x20; advantages and disadvantages
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## &#x20;Vulnerability Priority Rating (VPR)
 
