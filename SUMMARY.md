@@ -117,7 +117,7 @@
       * [AV Evasion & Obfuscation](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/defense-evasion/av-evasion-and-obfuscation/README.md)
         * [Command Obfuscation](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/defense-evasion/av-evasion-and-obfuscation/command-obfuscation.md)
         * [Encoding](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/defense-evasion/av-evasion-and-obfuscation/encoding/README.md)
-          * [Payload Encoding](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/defense-evasion/av-evasion-and-obfuscation/encoding/payload-encoding.md)
+          * [Payload Encoding/Obfuscation](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/defense-evasion/av-evasion-and-obfuscation/encoding/payload-encoding-obfuscation.md)
           * [Web Encoding](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/defense-evasion/av-evasion-and-obfuscation/encoding/web-encoding.md)
     * [Metasploit](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/metasploit.md)
     * [Searchsploit](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/searchsploit.md)
