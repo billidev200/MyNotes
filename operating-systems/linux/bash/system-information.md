@@ -156,3 +156,18 @@ sudo shutdown -r now
 ## reboot
 
 Reboots system
+
+## dpkg
+
+List installed packages
+
+```bash
+dpkg -l
+```
+
+## adduser
+
+```bash
+zsudo adduser <username>
+```
+

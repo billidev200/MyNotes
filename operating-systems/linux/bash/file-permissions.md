@@ -2,6 +2,10 @@
 
 <figure><img src="../../../.gitbook/assets/0259-linux-permissions-copy.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="warning" %}
+**Zero uid on linux is always the Root user**
+{% endhint %}
+
 ## chmod
 
 ```bash
