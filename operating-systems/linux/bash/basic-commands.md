@@ -133,5 +133,37 @@ Show current logged-in user
 
 Show user ID and group ID
 
-##
+## History
 
+Command View
+
+```bash
+history
+```
+
+Delete History
+
+```bash
+history -c
+```
+
+## Shred ( HDD Only )
+
+```bash
+shred [options] <file>
+```
+
+#### 🔍 Option Breakdown:
+
+* `-u`: Remove the file after overwriting it
+* `-z`: Add a final overwrite with zeros to hide shredding
+* `-n 3`: Number of overwrite passes (default is 3)
+
+## &#x20;truncate
+
+```bash
+truncate -s <size> <filename>
+```
+
+* `-s` sets the size.
+* `0` means reduce the file size to **zero bytes**.
