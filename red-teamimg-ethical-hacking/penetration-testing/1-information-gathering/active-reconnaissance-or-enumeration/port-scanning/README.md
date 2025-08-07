@@ -120,6 +120,12 @@ Null scan | Only Linux
 nmap -sN $ipAddress
 ```
 
+TCP Maimon Scan | **Unreliable on Windows** systems
+
+```
+nmap -sM
+```
+
 Scan Speed adjust
 
 ```bash
@@ -135,6 +141,15 @@ Packet Fragmentation to 8 bytes
 ```bash
 nmap -f $ipaddress
 ```
+
+Idle/Zombie Scan
+
+```bash
+nmap -sI
+```
+
+* You stay hidden (the target only sees the zombie’s IP).
+* There's no direct interaction between **you and the target**.
 
 </details>
 
