@@ -113,6 +113,7 @@
   * [2 - Exploitation](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/README.md)
     * [Website tools](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/website-tools.md)
     * [Defense Evasion](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/defense-evasion/README.md)
+      * [Windows Internals](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/defense-evasion/windows-internals.md)
       * [WAF/IDS/IPS Enumaration - Detection - Invasion/Byapass](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/defense-evasion/waf-ids-ips-enumaration-detection-invasion-byapass.md)
       * [AV Evasion & Obfuscation](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/defense-evasion/av-evasion-and-obfuscation/README.md)
         * [Command Obfuscation](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/defense-evasion/av-evasion-and-obfuscation/command-obfuscation.md)
