@@ -5,10 +5,6 @@ coverY: 0
 
 # Red Teaming
 
-## MITRE ATTACK
-
-{% embed url="https://attack.mitre.org/" %}
-
 ## **APTs and why Regular Pentesting is not Enough**
 
 <figure><img src="../.gitbook/assets/f9c16ff60c1412eefd77f12253643bab.png" alt=""><figcaption></figcaption></figure>
@@ -139,3 +135,45 @@ Each internal red team will have its methodology and documentation for campaign 
 |                                   | Responsibilities / Roles               | Specifies who performs which tasks, and when.                                                  | -                       |
 | **Remediation Plan** _(optional)_ | Report                                 | A summary of the engagement and findings.                                                      | Optional                |
 |                                   | Remediation / Consultation             | How findings will be addressed; may be included in report or discussed in a client meeting.    | Optional                |
+
+## &#x20;Threat Intel
+
+These cyber frameworks will collect known TTPs and categorize them based on varying characteristics such as,
+
+1. Threat Group
+2. Kill Chain Phase
+3. Tactic
+4. Objective/Goal
+
+Once a targeted adversary is selected, the goal is to identify all TTPs categorized with that chosen adversary and map them to a known cyber kill chain. This concept is covered further in the next task.
+
+Leveraging TTPs is used as a planning technique rather than something a team will focus on during engagement execution. Depending on the size of the team, a CTI team or threat intelligence operator may be employed to gather TTPs for the red team. During the execution of an engagement, the red team will use threat intelligence to craft tooling, modify traffic and behavior, and emulate the targeted adversary. This concept is covered further in task 5.
+
+Overall the red team consumes threat intelligence to analyze and emulate the behaviors of adversaries through collected TTPs and IOCs.
+
+### &#x20;**T**hreat **I**ntelligence-**b**ased **E**thical **R**ed Teaming (**TIBER-EU)**
+
+<figure><img src="../.gitbook/assets/29c6b67582199ed69f1310348d29aa8c.svg" alt=""><figcaption></figcaption></figure>
+
+The main difference between this framework and others is the _"Testing"_ phase that requires threat intelligence to feed the red team's testing.
+
+This framework encompasses a best practice rather than anything actionable from a red team perspective.
+
+There are several public white papers and documents if you are interested in reading about this framework further,
+
+### MITRE ATTACK
+
+{% embed url="https://attack.mitre.org/" %}
+
+## &#x20;TTP Mapping
+
+**TTP Mapping** is employed by the red cell to map adversaries' collected TTPs to a standard cyber kill chain. Mapping TTPs to a kill chain aids the red team in planning an engagement to emulate an adversary.
+
+To begin the process of mapping TTPs, an adversary must be selected as the target. An adversary can be chosen based on,
+
+1. Target Industry
+2. Employed Attack Vectors
+3. Country of Origin
+4. Other Factors
+
+The first cyber framework we will be collecting TTPs from is [**MITRE ATT\&CK**](https://attack.mitre.org/). If you are not familiar with MITRE ATT\&CK, it provides IDs and descriptions of categorized TTPs. For more information about MITRE and how to use ATT\&CK, check out the [MITRE room](https://tryhackme.com/room/mitre).

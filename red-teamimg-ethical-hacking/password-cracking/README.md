@@ -64,3 +64,22 @@ description: 🔐 Password Cracking Types & Attacks
 | Credential Stuffing | Using leaked creds               | Online         | Sentry MBA, Snipr        | Exploits password reuse         |
 | Rainbow Table       | Unsalted hashes                  | Offline        | Ophcrack, custom tables  | Large storage, outdated method  |
 | Hybrid Attacks      | Password hashes                  | Offline        | Hashcat, John the Ripper | Dictionary + brute force combos |
+|                     |                                  |                |                          |                                 |
+
+**5.Passowrd spraying**
+
+**Password spraying** is a type of attack where an attacker tries a **few common passwords** against **many accounts**, instead of trying many passwords on a single account.
+
+This is different from a traditional brute-force attack. Let me break it down:
+
+#### 1. **How it works**
+
+* Pick a list of common passwords (e.g., `Password123`, `Welcome1`, `Summer2025`)
+* Try **the same password on multiple accounts** (e.g., user1, user2, user3…)
+* Wait between attempts to **avoid account lockouts**
+
+#### 2. **Why attackers do this**
+
+* Many organizations **lock accounts after multiple failed login attempts**, so brute-force on one account often fails.
+* By spreading attempts across multiple accounts, the attacker **avoids triggering lockouts**.
+* It exploits the fact that **users often reuse common passwords**.
