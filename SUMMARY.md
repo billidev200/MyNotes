@@ -217,6 +217,7 @@
 * [Security Solutions](blue-team/security-solutions/README.md)
   * [Firewalls](blue-team/security-solutions/firewalls.md)
   * [SIEM](blue-team/security-solutions/siem.md)
+  * [IDS](blue-team/security-solutions/ids.md)
 * [Incident Response](blue-team/incident-response.md)
 * [Threat hunting](blue-team/threat-hunting.md)
 * [Malware Analysis](blue-team/malware-analysis.md)

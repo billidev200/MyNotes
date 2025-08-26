@@ -178,3 +178,7 @@ The `hostname` command will return the hostname of the target machine. Although 
 ## sudo -l
 
 The target system may be configured to allow users to run some (or all) commands with root privileges.
+
+## &#x20;Last
+
+This command tell us what user logged in before `last`
