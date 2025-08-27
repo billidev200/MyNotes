@@ -1,5 +1,43 @@
 # SMB/445/139 Enumeration
 
+{% hint style="warning" %}
+With smb i can login to user or kogin to folders/shares using users
+{% endhint %}
+
+{% stepper %}
+{% step %}
+### Enumeration
+
+Locate users,shares with enum4linux or other
+{% endstep %}
+
+{% step %}
+### Password Policy List
+
+enum4linux -P
+{% endstep %}
+
+{% step %}
+### Login
+
+Try login to users or shares wtith smbclint or smbmap to check if you cant with no pass
+{% endstep %}
+
+{% step %}
+### Brutefore
+
+Bruteforce login user with metasploit smb\_login and then we can select share to view
+
+or if we have password of user then we can login to shares with smbclint or smbmap
+{% endstep %}
+{% endstepper %}
+
+## Enum4linux
+
+```
+enum4linux -a
+```
+
 ## Nmap scripts
 
 **Show nmap SMB scripts**

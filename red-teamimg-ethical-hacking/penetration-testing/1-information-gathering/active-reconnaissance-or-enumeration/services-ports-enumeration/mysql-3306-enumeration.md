@@ -8,12 +8,6 @@
 ls -al /usr/share/nmap/scripts/ | grep -e "mysql"
 ```
 
-**Open MySQL from web**
-
-```bash
-mysql://$ipaddress 
-```
-
 **MySQL script run example**
 
 Attempts to brute-force MySQL logins using a wordlist.
