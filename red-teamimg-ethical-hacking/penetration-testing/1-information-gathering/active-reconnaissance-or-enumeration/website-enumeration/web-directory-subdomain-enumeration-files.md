@@ -2,6 +2,10 @@
 
 <figure><img src="../../../../../.gitbook/assets/HttpStatusCode (3).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="warning" %}
+NEVER USE DEFAULT USER AGENT OPSEC!!!!!
+{% endhint %}
+
 ## gobuster
 
 Basic Syntax
