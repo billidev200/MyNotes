@@ -1,5 +1,25 @@
 # FTP/21 Enumeration
 
+## FTP modes
+
+### 1. Active Mode (PORT Mode)
+
+* The **client** opens a random port (>1023) and tells the server:\
+  “Hey, connect back to me on this port for the data transfer.”
+* Then the **server initiates the connection** from its data port (port 20) back to the client’s chosen port.
+
+✅ Works well if the client is on an open network.\
+❌ Problems if the client is behind a firewall/NAT, because the server has to _initiate a connection back_ to the client.
+
+### 2. Passive Mode (PASV Mode)
+
+* The **server** opens a random port (>1023) and tells the client:\
+  “Hey, connect to me on this port for the data transfer.”
+* Then the **client initiates the connection** to the server’s chosen port.
+
+✅ Works better with firewalls and NAT (client always initiates connections).\
+❌ Server needs to keep many ports open.
+
 ## Nmap scripts
 
 **Show nmap ftp scripts**

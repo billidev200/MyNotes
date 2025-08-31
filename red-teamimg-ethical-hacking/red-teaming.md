@@ -165,6 +165,75 @@ There are several public white papers and documents if you are interested in rea
 
 {% embed url="https://attack.mitre.org/" %}
 
+Simple Explaination
+
+{% stepper %}
+{% step %}
+### Understand Threat Actors
+
+Mitre&#x20;
+{% endstep %}
+
+{% step %}
+### Map out attack
+
+[Cyber Analytics Repository](https://car.mitre.org/)(CAR)
+{% endstep %}
+
+{% step %}
+### Take Action Defend
+
+[MITRE ENGAGE](https://engage.mitre.org/)
+{% endstep %}
+
+{% step %}
+### Understad Defense Actors
+
+[D3FEND](https://d3fend.mitre.org/)
+{% endstep %}
+{% endstepper %}
+
+[Cyber Analytics Repository](https://car.mitre.org/)(CAR)
+
+The official definition of  CAR  is " _The MITRE Cyber Analytics Repository (CAR) is a knowledge base of analytics developed by MITRE based on the MITRE ATT\&CK_ ® _adversary model. CAR defines a data model that is leveraged in its pseudocode representations but also includes implementations directly targeted at specific tools (e.g., Splunk, EQL) in its analytics. With respect to coverage, CAR is focused on providing a set of validated and well-explained analytics, in particular with regards to their operating theory and rationale._ "
+
+<figure><img src="../.gitbook/assets/t4-car-navigator (1).png" alt=""><figcaption></figcaption></figure>
+
+[MITRE ENGAGE](https://engage.mitre.org/)
+
+#### Key Points about MITRE Engage:
+
+* **Purpose**: Helps defenders plan and execute **adversary engagement strategies** such as deception, denial, and adversary interaction.
+* **Goal**: Instead of just detecting and blocking, Engage encourages shaping adversary behavior, slowing them down, and collecting intelligence.
+* **Tactics**: Provides structured guidance on actions like creating decoys, misdirecting attackers, introducing friction, and gathering threat intelligence during intrusions.
+* **Use Cases**:
+  * Setting up honeypots and honeytokens.
+  * Feeding attackers false data.
+  * Delaying or diverting attacks while defenders respond.
+  * Learning attacker behavior in controlled environments.
+
+<figure><img src="../.gitbook/assets/engage-matrix.png" alt=""><figcaption></figcaption></figure>
+
+[D3FEND](https://d3fend.mitre.org/)
+
+**MITRE D3FEND** is another MITRE framework — but instead of focusing on _adversary behavior_ (like **ATT\&CK**) or _engagement/deception_ (like **Engage**), it focuses on **cyber defense techniques**.
+
+#### 🔹 What is MITRE D3FEND?
+
+* A **knowledge base of defensive techniques**, much like ATT\&CK is for offensive/adversary techniques.
+* Provides a **taxonomy of defensive countermeasures** mapped to specific ATT\&CK techniques.
+* Designed to help security professionals understand _which defensive methods_ can mitigate or detect specific attacker behaviors.
+
+<figure><img src="../.gitbook/assets/d3fend-matrix.png" alt=""><figcaption></figcaption></figure>
+
+**CTID** stands for **MITRE Center for Threat-Informed Defense**.
+
+#### 🔹 What CTID Does
+
+* Works with **private companies, governments, and nonprofits** worldwide.
+* Its mission is to **advance the state of the art and practice in threat-informed defense**.
+* It creates **free, publicly available resources** that help defenders understand and counter adversaries.
+
 ## &#x20;TTP Mapping
 
 **TTP Mapping** is employed by the red cell to map adversaries' collected TTPs to a standard cyber kill chain. Mapping TTPs to a kill chain aids the red team in planning an engagement to emulate an adversary.

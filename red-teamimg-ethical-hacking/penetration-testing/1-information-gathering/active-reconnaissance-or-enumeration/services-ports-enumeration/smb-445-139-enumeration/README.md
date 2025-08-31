@@ -1,7 +1,9 @@
 # SMB/445/139 Enumeration
 
+<figure><img src="../../../../../../.gitbook/assets/XMnru12 (1).png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="warning" %}
-With smb i can login to user or kogin to folders/shares using users
+With smb i can login to user or login to folders/shares using users
 {% endhint %}
 
 {% stepper %}
@@ -37,6 +39,19 @@ or if we have password of user then we can login to shares with smbclint or smbm
 ```
 enum4linux -a
 ```
+
+**TAG**            **FUNCTION**
+
+-U             get userlist\
+-M             get machine list\
+-N             get namelist dump (different from -U and-M)\
+-S             get sharelist\
+-P             get password policy information\
+-G             get group and member list
+
+-a             all of the above (full basic enumeration)
+
+Now we understand our enumeration tools, let's get started!
 
 ## Nmap scripts
 
@@ -120,14 +135,6 @@ smbclient //hostname -U username
 
 ```bash
 smbclient -L //$IPADDRESS/
-```
-
-```bash
-smbclient -L $IPADDRESS
-```
-
-```bash
-smbclient -L $Hostname
 ```
 
 **Uploading a File**
