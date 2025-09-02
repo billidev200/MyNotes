@@ -2,6 +2,30 @@
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
+Different types of malicious emails can be classified as one of the following:
+
+* [**Spam**](https://www.proofpoint.com/us/threat-reference/spam) - unsolicited junk emails sent out in bulk to a large number of recipients. The more malicious variant of Spam is known as **MalSpam**.
+* [**Phishing**](https://www.proofpoint.com/us/threat-reference/phishing) -  emails sent to a target(s) purporting to be from a trusted entity to lure individuals into providing sensitive information.&#x20;
+* [**Spear phishing**](https://www.proofpoint.com/us/threat-reference/spear-phishing) **-** takes phishing a step further by targeting a specific individual(s) or organization seeking sensitive information. &#x20;
+* [**Whaling**](https://www.rapid7.com/fundamentals/whaling-phishing-attacks/) - is similar to spear phishing, but it's targeted specifically to C-Level high-position individuals (CEO, CFO, etc.), and the objective is the same.&#x20;
+* [**Smishing**](https://www.proofpoint.com/us/threat-reference/smishing) - takes phishing to mobile devices by targeting mobile users with specially crafted text messages.&#x20;
+* [**Vishing**](https://www.proofpoint.com/us/threat-reference/vishing) - is similar to smishing, but instead of using text messages for the social engineering attack, the attacks are based on voice calls.&#x20;
+
+## Email Delivery
+
+POP3
+
+* Emails are downloaded and stored on a single device.
+* Sent messages are stored on the single device from which the email was sent.
+* Emails can only be accessed from the single device the emails were downloaded to.
+* If you want to keep messages on the server, make sure the setting "Keep email on server" is enabled, or all messages are deleted from the server once downloaded to the single device's app or software.
+
+IMAP
+
+* Emails are stored on the server and can be downloaded to multiple devices.
+* Sent messages are stored on the server.
+* Messages can be synced and accessed across multiple devices.
+
 ## Writing Convincing Phishing Emails
 
 To find what brands or people a victim interacts with, you can employ OSINT (Open Source Intelligence) tactics. For example:
