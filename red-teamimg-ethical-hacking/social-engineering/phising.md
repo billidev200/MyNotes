@@ -1,3 +1,7 @@
+---
+description: The syntax for email messages is known as the Internet Message Format (IMF).
+---
+
 # Phising
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
@@ -159,3 +163,100 @@ That being said, it can happen, and as previously mentioned, it could be used to
 Usually, the victim would receive an email, convincing them to visit a particular website set up by the attacker. Once the victim is on the site, the exploit works against the browser, and now the attacker can perform any commands they wish on the victim's computer.
 
 An example of this is [CVE-2021-40444](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444) from September 2021, which is a vulnerability found in Microsoft systems that allowed the execution of code just from visiting a website.
+
+## Examples
+
+1. This is an unusual email recipient address. This is not the email address associated with the Yahoo account.&#x20;
+2. This mismatch should immediately stand out. The sender's details (service@paypal.com) don't match the sender's email address (gibberish@sultanbogor.com).&#x20;
+3. The subject line hints that you made a purchase or a transaction of some sort. If you don't recall this account, then it will grab your attention. This social engineering tactic is to prompt you to interact with the email with haste.&#x20;
+
+<figure><img src="../../.gitbook/assets/email1-details.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/cancel-order.png" alt=""><figcaption></figcaption></figure>
+
+This email sample will highlight the following techniques:\
+
+
+1. Spoofed email address
+2. Pixel tracking
+3. Link manipulation
+
+Here are some quick observations about this email sample:
+
+1. The email is tailored to appear that it's sent from a mail distribution center of some sort.&#x20;
+2. The subject line adds to the pretense with a 'tracking number.'&#x20;
+3. The link in the email body matches the subject line.&#x20;
+
+## &#x20;Tracking Pixels
+
+{% embed url="https://www.youtube.com/watch?v=TC09ml9Fpg8" %}
+
+## Tools
+
+Gophish
+
+<figure><img src="../../.gitbook/assets/27941933-e72d302c-6298-11e7-9db1-fe592c79c61e.png" alt=""><figcaption></figcaption></figure>
+
+## Email Defang
+
+The square brackets **\[ ]** in `devret[.]xyz` are **intentional**.
+
+They’re used as a **safety measure** in security writing:
+
+* `devret.xyz` is the _real_ domain.
+* `devret[.]xyz` is a **defanged** version — meaning it prevents the text from being automatically recognized as a clickable link.
+
+👉 This way, readers can learn about or analyze suspicious domains without accidentally visiting them and risking exposure to malware or phishing.
+
+You’ll often see this in security reports, blogs, and threat intel write-ups (sometimes also with `hxxp://` instead of `http://`).
+
+## Phishing Prevention
+
+### SPF (Sender Policy Framework)
+
+Sender Policy Framework (SPF) is an email authentication protocol that helps prevent email spoofing and phishing by allowing domain owners to publish a list of authorized mail servers in their Domain Name System (DNS) records
+
+<figure><img src="../../.gitbook/assets/dmarcian-spf.png" alt=""><figcaption></figcaption></figure>
+
+How does a basic SPF record look like?
+
+`v=spf1 ip4:127.0.0.1 include:_spf.google.com -all`
+
+An explanation for the above record:
+
+* `v=spf1` -> This is the start of the SPF record
+* `ip4:127.0.0.1` -> This specifies which IP (in this case version IP4 & not IP6) can send mail
+* `include:_spf.google.com` -> This specifies which domain can send mail
+* `-all` -> non-authorized emails will be rejected
+
+### DKIM (DomainKeys Identified Mail)
+
+is an email authentication method that uses public-key cryptography to digitally sign outgoing emails, allowing receiving mail servers to verify the sender's domain and ensure the message hasn't been altered in transit
+
+`v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxTQIC7vZAHHZ7WVv/5x/qH1RAgMQI+y6Xtsn73rWOgeBQjHKbmIEIlgrebyWWFCXjmzIP0NYJrGehenmPWK5bF/TRDstbM8uVQCUWpoRAHzuhIxPSYW6k/w2+HdCECF2gnGmmw1cT6nHjfCyKGsM0On0HDvxP8I5YQIIlzNigP32n1hVnQP+UuInj0wLIdOBIWkHdnFewzGK2+qjF2wmEjx+vqHDnxdUTay5DfTGaqgA9AKjgXNjLEbKlEWvy0tj7UzQRHd24a5+2x/R4Pc7PF/y6OxAwYBZnEPO0sJwio4uqL9CYZcvaHGCLOIMwQmNTPMKGC9nt3PSjujfHUBX3wIDAQAB`&#x20;
+
+An explanation of the above record:
+
+* `v=DKIM1` -> This is the version of the DKIM record. This is optional.&#x20;
+* `k=rsa` -> This is the key type. The default value is RSA. RSA is an encryption algorithm (cryptosystem).
+* `p=` -> This is the public key that will be matched to the private key, which was created during the DKIM setup process.&#x20;
+
+### DMARC (Domain-Based Message Authentication, Reporting, and Conformance)
+
+An email security protocol that helps prevent email spoofing and protects domain owners from phishing and Business Email Compromise (BEC) attacks by validating the authenticity of email senders
+
+How does a basic DMARC record look like?
+
+`v=DMARC1; p=quarantine; rua=mailto:postmaster@website.com`&#x20;
+
+An explanation of the above record:
+
+* `v=DMARC1` -> Must be in all caps, and it's not optional
+* `p=quarantine` -> If a check fails, then an email will be sent to the spam folder (DMARC Policy)
+* `rua=mailto:postmaster@website.com` -> Aggregate reports will be sent to this email address
+
+### &#x20;S/MIME (Secure/Multipurpose Internet Mail Extensions)
+
+is an internet standard for securing email using public-key cryptography to provide digital signatures for authentication and message integrity, and encryption for message confidentiality
+
+<figure><img src="../../.gitbook/assets/27cb0b439d172324f453e57c9cbf7ac0.png" alt=""><figcaption></figcaption></figure>

@@ -204,6 +204,7 @@
 * [Stay Anoymous](red-teamimg-ethical-hacking/stay-anoymous.md)
 * [Social engineering](red-teamimg-ethical-hacking/social-engineering/README.md)
   * [Phising](red-teamimg-ethical-hacking/social-engineering/phising.md)
+  * [Phising Analysis](red-teamimg-ethical-hacking/social-engineering/phising-analysis.md)
 * [Steganography](red-teamimg-ethical-hacking/steganography.md)
 * [Auditing](red-teamimg-ethical-hacking/auditing.md)
 * [Red Teaming](red-teamimg-ethical-hacking/red-teaming.md)
