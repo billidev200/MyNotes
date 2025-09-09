@@ -17,9 +17,6 @@
     * [Tracks](operating-systems/linux/bash/tracks.md)
 * [Windows](operating-systems/windows/README.md)
   * [Powershell](operating-systems/windows/powershell.md)
-  * [Active Directory](operating-systems/windows/active-directory/README.md)
-    * [Kerberos ](operating-systems/windows/active-directory/kerberos.md)
-    * [NetNTLM Legacy](operating-systems/windows/active-directory/netntlm-legacy.md)
 
 ## red teamimg - ethical hacking
 
@@ -176,6 +173,10 @@
       * [Windows](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/pivioting/local-enumeration/windows.md)
       * [Linux](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/pivioting/local-enumeration/linux.md)
     * [Pivioting](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/pivioting/README.md)
+    * [Active Directory](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/active-directory/README.md)
+      * [Kerberos ](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/active-directory/kerberos.md)
+      * [NetNTLM Legacy](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/active-directory/netntlm-legacy.md)
+      * [Local Enumeration](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/active-directory/local-enumeration.md)
     * [Clearing Tracks](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/clearing-tracks/README.md)
       * [Windows](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/clearing-tracks/windows.md)
       * [Linux](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/clearing-tracks/linux.md)
@@ -185,6 +186,7 @@
       * [Cobalt Strike](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/c2-frameworks/cobalt-strike.md)
       * [Discord RAT 2.0](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/c2-frameworks/discord-rat-2.0.md)
     * [%TEMP%](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/temp.md)
+    * [ls /etc/shadow](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/ls-etc-shadow.md)
     * [Command Obfuscation](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/command-obfuscation.md)
 * [Wireless Penetration Testing](red-teamimg-ethical-hacking/wireless-penetration-testing.md)
 * [Mobile Penetration Testing](red-teamimg-ethical-hacking/mobile-penetration-testing.md)
