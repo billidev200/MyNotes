@@ -14,6 +14,10 @@ description: Websites used for passive reconnaissance
 
 {% embed url="https://www.shodan.io/" %}
 
+<figure><img src="../../../../../.gitbook/assets/image-3.png" alt=""><figcaption></figcaption></figure>
+
+{% embed url="https://monitor.shodan.io/networks/add" %}
+
 ***
 
 ## DomainTools

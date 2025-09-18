@@ -333,9 +333,51 @@ masscan -p<ports> <target-range> --rate <packets-per-second>
 
 ***
 
-## rustscan
+## Rustscan
 
+**RustScan** is a fast, modern TCP port scanner written in **Rust**. It focuses on extremely quick port discovery (using async/concurrent networking) and then optionally hands off discovered open ports to a secondary tool (commonly **nmap**) for detailed service/version detection and scripts.
 
+Has Scripting Engine (RSE) like and nmap and can use nmap scripts
 
+### RSE
 
+To execute a custom script, we need a `rustscan_scripts.toml` file located at `$HOME/.rustscan_scripts.toml`.
 
+RSE supports these languages:
+
+* Python
+* Shell
+* Perl
+* Any program which is a binary and in $PATH
+
+### Scanning
+
+Multiple IP Scanning
+
+* -a is for address
+
+You can scan multiple IPs using a comma-separated list like so:
+
+```
+rustscan -a 127.0.0.1,0.0.0.0
+```
+
+CIDR support
+
+```
+rustscan -a 192.168.0.0/30
+```
+
+{% hint style="warning" %}
+**RustScan’s main purpose is to quickly find open TCP ports**. It is **not designed for deep service enumeration, OS detection, or script scanning** — that’s what Nmap (or other tools) does.
+
+Think of RustScan as a **fast “port discovery engine”**:
+{% endhint %}
+
+| Feature                   | RustScan                | Nmap                            |
+| ------------------------- | ----------------------- | ------------------------------- |
+| Open port discovery       | ✅ super fast            | ✅ slower (depending on options) |
+| Service/version detection | ❌ (must use Nmap after) | ✅ (`-sV`)                       |
+| OS detection              | ❌                       | ✅ (`-O`)                        |
+| NSE scripts               | ❌                       | ✅ (`-sC` / `--script`)          |
+| UDP scanning              | ❌                       | ✅ (`-sU`)                       |
