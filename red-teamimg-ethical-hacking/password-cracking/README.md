@@ -1,5 +1,6 @@
 ---
 description: 🔐 Password Cracking Types & Attacks
+icon: key
 ---
 
 # Password Cracking

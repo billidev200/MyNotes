@@ -1,3 +1,7 @@
+---
+icon: display
+---
+
 # Penetration Testing
 
 Penetration testing (often called **pen testing** or **ethical hacking**) is a security practice where cybersecurity professionals simulate attacks on a computer system, network, or web application to find and fix security vulnerabilities before malicious hackers can exploit them.
