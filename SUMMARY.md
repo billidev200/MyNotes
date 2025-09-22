@@ -146,7 +146,7 @@
       * [Eternalblue](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/windows-vulnerabilities/eternalblue.md)
     * [Linux Vulnerabilities](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/linux-vulnerabilities/README.md)
       * [Shellshock](red-teamimg-ethical-hacking/penetration-testing/2-exploitation/linux-vulnerabilities/shellshock.md)
-  * [3 Post-Exploitation](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/README.md)
+  * [3 - Post-Exploitation](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/README.md)
     * [Metasploit](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/metasploit/README.md)
       * [Meterpreter](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/metasploit/meterpreter.md)
     * [Privilege escalation](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/privilege-escalation/README.md)
