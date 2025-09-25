@@ -4,6 +4,11 @@ description: Can upload files revsre shell
 
 # Command injection
 
+The main defence for preventing injection attacks is ensuring that user-controlled input is not interpreted as queries or commands. There are different ways of doing this:
+
+* Using an allow list: when input is sent to the server, this input is compared to a list of safe inputs or characters. If the input is marked as safe, then it is processed. Otherwise, it is rejected, and the application throws an error.
+* Stripping input: If the input contains dangerous characters, these are removed before processing.
+
 ## Basic Command Injection
 
 The simplest way is by inserting a command separator to chain additional commands. These are typical in Unix-based systems, but Windows has its own variations.
@@ -60,44 +65,18 @@ echo "LS0gY2F0IC9ldGMvYXBwYWdlX2ZpbGU=" | base64 -d
 
 {% embed url="https://www.youtube.com/watch?v=kiP12PrXOZA" %}
 
-## Wget
+<figure><img src="../../../../../../../.gitbook/assets/9f657b909062ac82af12548b4f346aec.png" alt=""><figcaption></figcaption></figure>
 
-🔹 **Basic Syntax**
+```php
+<?php
+    if (isset($_GET["mooing"])) {
+        $mooing = $_GET["mooing"];
+        $cow = 'default';
 
-```bash
-wget [options] [URL]
-```
-
-**Download a Single File**
-
-```bash
-wget https://example.com/file.zip
-```
-
-Download Multiple Files
-
-```bash
-wget -i urls.txt
-```
-
-⚙️ **FTP and Proxy Use**
-
-Download from FTP with Credentials
-
-```bash
-wget ftp://username:password@ftp.example.com/file.txt
-```
-
-Use a Proxy
-
-```bash
-wget -e use_proxy=yes -e http_proxy=http://proxyserver:port https://example.com
-```
-
-🧪 **Advanced Usage**
-
-Spider Mode (Check Links Without Downloading)
-
-```bash
-wget --spider https://example.com
+        if(isset($_GET["cow"]))
+            $cow = $_GET["cow"];
+        
+        passthru("perl /usr/bin/cowsay -f $cow $mooing");
+    }
+?>
 ```

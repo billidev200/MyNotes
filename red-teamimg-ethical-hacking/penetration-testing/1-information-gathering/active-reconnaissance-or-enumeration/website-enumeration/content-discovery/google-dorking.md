@@ -48,4 +48,4 @@
 
 </details>
 
-<figure><img src="../../../../.gitbook/assets/the-top-15-google-dorking-commands.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/the-top-15-google-dorking-commands.webp" alt=""><figcaption></figcaption></figure>
