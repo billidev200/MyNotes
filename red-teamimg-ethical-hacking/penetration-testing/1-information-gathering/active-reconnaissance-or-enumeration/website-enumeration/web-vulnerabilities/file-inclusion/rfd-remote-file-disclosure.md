@@ -1,2 +1,0 @@
-# RFD (Remote File Disclosure)
-
