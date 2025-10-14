@@ -2,7 +2,9 @@
 
 * **Brute force attacks:** If a web application uses usernames and passwords, an attacker can try to launch brute force attacks that allow them to guess the username and passwords using multiple authentication attempts.&#x20;
 * **Use of weak credentials:** Web applications should set strong password policies. If applications allow users to set passwords such as "password1" or common passwords, an attacker can easily guess them and access user accounts.
-* **Weak Session Cookies:** Session cookies are how the server keeps track of users. If session cookies contain predictable values, attackers can set their own session cookies and access users' accounts.&#x20;
+* **Weak Session Cookies:** Session cookies are how the server keeps track of users. If session cookies contain predictable values, attackers can set their own session cookies and access users' accounts.
+* **Logic Flaw:** Sometimes authentication processes contain logic flaws. A logic flaw is when the typical logical path of an application is either bypassed,
+* **Cookie Tampering:**&#x45;xamining and editing the cookies set by the web server during your online session can have multiple outcomes, such as unauthenticated access, access to another user's account, or elevated privileges.it can happen if stole a cookie from someone and use to login or if it not encoded hashed and has exposed parameters be vulnerable to IDOR.
 
 There can be various mitigation for broken authentication mechanisms depending on the exact flaw:
 
