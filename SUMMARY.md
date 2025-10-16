@@ -54,6 +54,7 @@
         * [RDP/3389 Enumeration](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/rdp-3389-enumeration.md)
         * [WinRM/5985 - 5986](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/winrm-5985-5986.md)
         * [Rsync/873](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/rsync-873.md)
+        * [IPP/631](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/ipp-631.md)
         * [WebDAV Enumeration](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/webdav-enumeration.md)
         * [Service Bruteforce](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/service-bruteforce.md)
       * [Website Enumeration](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/website-enumeration/README.md)
