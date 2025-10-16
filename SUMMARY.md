@@ -224,6 +224,7 @@
     * [Ncrack](red-teamimg-ethical-hacking/password-cracking/service-brute-force-online/ncrack.md)
     * [Medusa](red-teamimg-ethical-hacking/password-cracking/service-brute-force-online/medusa.md)
   * [Default Passwords Devices](red-teamimg-ethical-hacking/password-cracking/default-passwords-devices.md)
+* [Printer Hacking](red-teamimg-ethical-hacking/printer-hacking.md)
 * [Stay Anoymous](red-teamimg-ethical-hacking/stay-anoymous.md)
 * [Social engineering](red-teamimg-ethical-hacking/social-engineering/README.md)
   * [Phising](red-teamimg-ethical-hacking/social-engineering/phising.md)
