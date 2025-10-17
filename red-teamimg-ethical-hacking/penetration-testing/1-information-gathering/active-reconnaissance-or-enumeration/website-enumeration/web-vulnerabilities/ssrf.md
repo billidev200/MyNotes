@@ -21,7 +21,13 @@ A successful SSRF attack can result in any of the following:&#x20;
 * Ability to Scale to internal networks.
 * Reveal authentication tokens/credentials.
 
+## Finding an SSRF
+
+<figure><img src="../../../../../../.gitbook/assets/Firefox_Screenshot_2025-10-15T15-48-18.989Z.png" alt=""><figcaption></figcaption></figure>
+
 ## Defeating Common SSRF Defenses
+
+More security-savvy developers aware of the risks of SSRF vulnerabilities may implement checks in their applications to make sure the requested resource meets specific rules. There are usually two approaches to this, either a deny list or an allow list.
 
 **Deny List**
 
@@ -36,6 +42,3 @@ An allow list is where all requests get denied unless they appear on a list or m
 **Open Redirect**
 
 If the above bypasses do not work, there is one more trick up the attacker's sleeve, the open redirect. An open redirect is an endpoint on the server where the website visitor gets automatically redirected to another website address. Take, for example, the link https://website.thm/link?url=https://tryhackme.com. This endpoint was created to record the number of times visitors have clicked on this link for advertising/marketing purposes. But imagine there was a potential SSRF vulnerability with stringent rules which only allowed URLs beginning with https://website.thm/. An attacker could utilise the above feature to redirect the internal HTTP request to a domain of the attacker's choice.\
-
-
-\
