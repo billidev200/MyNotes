@@ -57,3 +57,16 @@ The application might actually return the database error in its HTTP response, b
 **The second method involves submitting a series of `UNION SELECT` payloads specifying a different number of null values:**
 
 `' UNION SELECT NULL-- ' UNION SELECT NULL,NULL-- ' UNION SELECT NULL,NULL,NULL-- etc.`
+
+## **Authentication Bypass**
+
+One of the most straightforward Blind SQL Injection techniques is when bypassing authentication methods such as login forms. In this instance, we aren't that interested in retrieving data from the database; We just want to get past the login.&#x20;
+
+## **Time-Based**
+
+A time-based blind SQL injection is very similar to the above boolean-based one in that the same requests are sent, but there is no visual indicator of your queries being wrong or right this time. Instead, your indicator of a correct query is based on the time the query takes to complete. This time delay is introduced using built-in methods such as **SLEEP(x)** alongside the UNION statement. The SLEEP() method will only ever get executed upon a successful UNION SELECT statement.&#x20;
+
+`admin123' UNION SELECT SLEEP(5);--`
+
+`admin123' UNION SELECT SLEEP(5),2;--`
+
