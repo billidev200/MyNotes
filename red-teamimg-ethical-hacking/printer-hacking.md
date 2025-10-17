@@ -10,6 +10,32 @@ When an IPP port is open to the internet, it is possible for anyone to print to 
 
 An open IPP port can expose a lot of sensitive information such as printer name, location, model, firmware version, or even printer wifi SSID.
 
+## Why attackers target printers / print servers
+
+* **Exposed printers (networked devices)**
+  * Often have web admin panels, open ports (IPP 631, HTTP/HTTPS, sometimes Telnet/FTP), and outdated firmware — easy low-effort targets.
+  * Can leak sensitive documents (jobs stored in memory/flash) or credentials shown in admin UIs.
+  * Can be pivot points into internal networks if reachable from other hosts.
+* **Print servers (CUPS, Windows Print Server, Raspberry Pi acting as server)**
+  * Run full OS stacks and services (CUPS, Samba, SSH) — more software = more vulnerabilities.
+  * Misconfiguration (open to Internet, weak SSH passwords, permissive CUPS access controls) allows remote job submission, admin access, or remote code execution.
+  * Attractive for attackers who want to abuse a trusted host to distribute malware, harvest credentials, or relay spam/DDoS.
+
+## Typical attacker goals
+
+* **Information theft** — capture printed documents or job metadata.
+* **Persistence / lateral movement** — use compromised print server to reach other hosts.
+* **Service disruption** — flood the printer/server to cause denial-of-service.
+* **Abuse** — send unwanted print jobs (porn/propaganda), print confidential docs, or exploit vulnerabilities to run code.
+
+## Common attack vectors (high level)
+
+* Publicly exposed management interfaces or IPP/LPD ports.
+* Weak SSH passwords on a host that can tunnel to localhost:631 (as you noted).
+* Unpatched firmware or vulnerable CUPS/Samba versions.
+* Misconfigured access control in `cupsd.conf` or Samba shares.
+* Default credentials in embedded printer web UIs.
+
 ## Toolkit
 
 {% embed url="https://github.com/RUB-NDS/PRET" %}
@@ -233,9 +259,29 @@ info       Show information:  info <category>
   info extended   - Show extended fonts.
 ```
 
-## CUPS server
+## CUPS server/**Print server**
+
+{% hint style="warning" %}
+Note also: An ssh access to the machine allows you to set up ssh tunneling, opening all CUPS features and providing you an ability to use attached printers. SSH password can be easily brute-forced (weak password).\
+An example command for ssh tunneling:
+
+```
+ssh printer@10.10.93.66 -T -L 3631:localhost:631
+```
+
+After doing so, you can easily add the CUPS server in your VM's printer settings and even try to send some printing jobs.Try out different techniques and have fun!
+{% endhint %}
 
 CUPS is a modular printing system for Unix-like computer operating systems which allows a computer to act as a print server. A computer running CUPS is a host that can accept print jobs from client computers, process them, and send them to the appropriate printer. CUPS consists of a print spooler and scheduler, a filter system that converts the print data to a format that the printer will understand, and a backend system that sends this data to the print device
+
+🖨️ What is a **Print Server**?
+
+A **print server** is a device (usually a **computer** or **dedicated hardware box**) that:
+
+* **Manages access to one or more printers**
+* **Accepts print jobs** from other computers over a network
+* **Queues and processes** those jobs
+* **Sends them to the correct printer**
 
 #### 🔄 **Print Spooler**
 
@@ -286,6 +332,28 @@ In CUPS, the **scheduler is the central controller**. It listens for incoming pr
 
 ***
 
+**🏡 Do Homes Have Print Servers?**
+
+**Usually, no — most home networks don’t have a dedicated print server.**\
+But let’s break it down so you can see **when and why** one might be used.
+
+{% embed url="https://www.cups.org/" %}
+
+***
+
 ## Cheat sheet
 
 <figure><img src="../.gitbook/assets/Firefox_Screenshot_2025-10-17T14-58-42.233Z.png" alt=""><figcaption></figcaption></figure>
+
+## Common Ports Used by Printer Servers (e.g., CUPS, Windows Print Server)
+
+| Port Number | Protocol/Service                 | Description                                                                           |
+| ----------- | -------------------------------- | ------------------------------------------------------------------------------------- |
+| **631**     | IPP (Internet Printing Protocol) | Default port for CUPS and many network printers for print jobs and management         |
+| **515**     | LPD (Line Printer Daemon)        | Older printing protocol still used in some setups                                     |
+| **9100**    | HP JetDirect / RAW Printing      | Raw TCP printing — often called "port 9100 printing" or "RAW"                         |
+| **139**     | SMB (Server Message Block)       | Windows file and printer sharing (NetBIOS Session Service)                            |
+| **445**     | SMB over TCP/IP                  | Modern Windows file and printer sharing without NetBIOS                               |
+| **80**      | HTTP                             | Web interfaces for printer admin pages or CUPS web UI (if enabled)                    |
+| **443**     | HTTPS                            | Secure web interfaces for admin or management                                         |
+| **22**      | SSH                              | Used if the print server allows SSH access (e.g., for tunneling or remote management) |
