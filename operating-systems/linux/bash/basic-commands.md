@@ -167,3 +167,7 @@ truncate -s <size> <filename>
 
 * `-s` sets the size.
 * `0` means reduce the file size to **zero bytes**.
+
+## reset
+
+Say if  your terminal is not working properly, any problem is occurring, but you can't afford to close the shell, you're just one `reset` command away to get your shell back to normal.&#x20;
