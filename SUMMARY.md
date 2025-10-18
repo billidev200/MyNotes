@@ -48,7 +48,7 @@
           * [SMB relay attack](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/smb-445-139-enumeration/smb-relay-attack.md)
         * [MySQL/3306 Enumeration](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/mysql-3306-enumeration.md)
         * [FTP/21 Enumeration](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/ftp-21-enumeration.md)
-        * [Telnet/23](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/telnet-23.md)
+        * [Telnet/23 Enumeration](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/telnet-23-enumeration.md)
         * [SSH/22 Enumeration](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/ssh-22-enumeration.md)
         * [SMTP/25 Enumeration](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/smtp-25-enumeration.md)
         * [RDP/3389 Enumeration](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/rdp-3389-enumeration.md)
