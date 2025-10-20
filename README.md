@@ -1,7 +1,2 @@
----
-icon: linux
----
+# Page
 
-# Linux
-
-##
