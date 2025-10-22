@@ -4,7 +4,7 @@ description: The syntax for email messages is known as the Internet Message Form
 
 # Phising
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Different types of malicious emails can be classified as one of the following:
 
