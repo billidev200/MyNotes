@@ -92,7 +92,7 @@ gobuster fuzz -u "http://example.com/FUZZ" -w <wordlist>
 
 OSINT subdomain discovery method
 
-<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="509"><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="509"><figcaption></figcaption></figure>
 
 **Sublist3r** finds subdomains **without brute-force by default.**
 
