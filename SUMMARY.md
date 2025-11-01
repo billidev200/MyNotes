@@ -97,7 +97,7 @@
             * [Remote File Inclusion (RFI)](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/website-enumeration/web-vulnerabilities/file-inclusion/remote-file-inclusion-rfi.md)
             * [XSSI](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/website-enumeration/web-vulnerabilities/file-inclusion/xssi.md)
           * [Injections](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/website-enumeration/web-vulnerabilities/injections/README.md)
-            * [Command injection](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/website-enumeration/web-vulnerabilities/injections/command-injection.md)
+            * [Command injectionq](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/website-enumeration/web-vulnerabilities/injections/command-injectionq.md)
             * [Database Injections](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/website-enumeration/web-vulnerabilities/injections/database-injections/README.md)
               * [SQLi Cheat sheet](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/website-enumeration/web-vulnerabilities/injections/database-injections/sqli-cheat-sheet.md)
               * [NoSQLi](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/website-enumeration/web-vulnerabilities/injections/database-injections/nosqli.md)
