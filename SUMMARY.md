@@ -266,6 +266,8 @@
   * [Identity & Access Management](blue-team/security-engineer-architect/identity-and-access-management.md)
   * [Governance & Regulation](blue-team/security-engineer-architect/governance-and-regulation.md)
   * [Threat Modelling](blue-team/security-engineer-architect/threat-modelling.md)
+  * [Risk Management](blue-team/security-engineer-architect/risk-management.md)
+  * [Vulnerability Management](blue-team/security-engineer-architect/vulnerability-management.md)
   * [1 - Attacks, Threats, and Vulnerabilities](blue-team/security-engineer-architect/1-attacks-threats-and-vulnerabilities.md)
   * [4 - Governance, Risk, and Compliance](blue-team/security-engineer-architect/4-governance-risk-and-compliance.md)
   * [2 - Architecture and Design](blue-team/security-engineer-architect/2-architecture-and-design.md)
