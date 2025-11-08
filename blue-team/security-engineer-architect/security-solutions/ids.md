@@ -1,6 +1,6 @@
 # IDS
 
-<figure><img src="../../.gitbook/assets/6645aa8c024f7893371eb7ac-1723026309300.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/6645aa8c024f7893371eb7ac-1723026309300.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Deployment Modes
 
@@ -19,7 +19,7 @@ IDS can be deployed in the following ways:
 
 Snort, developed in 1998, is one of the most widely used open-source IDS solutions. It uses both signature-based and anomaly-based detection to identify threats, with attack patterns defined in its rule files. Snort comes with built-in rule sets that can detect many types of malicious traffic. However, you can also create custom rules to detect specific traffic not covered by the defaults, or disable rules that are not relevant to your network. In the next task, we will explore these built-in rules and create custom ones for targeted detection.
 
-<figure><img src="../../.gitbook/assets/6645aa8c024f7893371eb7ac-1722881168080.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/6645aa8c024f7893371eb7ac-1722881168080.png" alt=""><figcaption></figcaption></figure>
 
 | **Mode**                                           | **Description**                                                                                                                                                                   | **Use Case**                                                                                                                               |
 | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -46,4 +46,4 @@ They act like signatures and detection logic for suspicious or malicious behavio
 * **Detection Logic** → Rules can match on specific content (like “GET /admin”), protocol behavior, ports, or anomalies.
 * **Customizable** → Admins can write custom rules for threats unique to their environment, or disable irrelevant ones.
 
-<figure><img src="../../.gitbook/assets/6645aa8c024f7893371eb7ac-1725532438800.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/6645aa8c024f7893371eb7ac-1725532438800.png" alt=""><figcaption></figcaption></figure>

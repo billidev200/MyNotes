@@ -1,6 +1,6 @@
 # Firewalls
 
-<figure><img src="../../.gitbook/assets/6645aa8c024f7893371eb7ac-1725967312491.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/6645aa8c024f7893371eb7ac-1725967312491.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **1. Stateless Firewall (Old)**
 
@@ -52,7 +52,7 @@ The basic components of a firewall’s rule are described below:
 * **Action:** This defines the action that would be taken upon identifying any traffic of this particular nature.
 * **Direction:** This field defines the rule’s applicability to incoming or outgoing traffic.
 
-<figure><img src="../../.gitbook/assets/6645aa8c024f7893371eb7ac-1725970029903.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/6645aa8c024f7893371eb7ac-1725970029903.svg" alt=""><figcaption></figcaption></figure>
 
 **Inbound Rules**
 

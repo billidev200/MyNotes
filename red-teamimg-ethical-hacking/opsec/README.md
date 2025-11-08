@@ -2,7 +2,7 @@
 
 Operations Security (OPSEC) is a term coined by the United States military. In the field of cybersecurity, let’s start with the definition provided by [NIST](https://csrc.nist.gov/glossary/term/opsec):
 
-<figure><img src="../.gitbook/assets/2cda611755b8a85867f37ce46c20aff7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2cda611755b8a85867f37ce46c20aff7.png" alt=""><figcaption></figcaption></figure>
 
 The OPSEC process has five steps:
 
@@ -12,13 +12,13 @@ The OPSEC process has five steps:
 4. Assess risks
 5. Apply appropriate countermeasures
 
-<figure><img src="../.gitbook/assets/c50e97c624bc345971f81e80fb3c2a3e.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/c50e97c624bc345971f81e80fb3c2a3e.png" alt=""><figcaption></figcaption></figure>
 
 If the adversary discovers that you are scanning their network with Nmap (the blue team in our case), they should easily be able to discover the IP address used. For instance, if you use this same IP address to host a phishing site, it won’t be very difficult for the blue team to connect the two events and attribute them to the same actor.
 
 OPSEC is not a solution or a set of rules; OPSEC is a five-step process to deny adversaries from gaining access to any critical information (defined in Task 2). We will dive into each step and see how we can improve OPSEC as part of our red team operations.
 
-<figure><img src="../.gitbook/assets/8db3f3679362574a35006f377f6b3268.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8db3f3679362574a35006f377f6b3268.png" alt="" width="563"><figcaption></figcaption></figure>
 
 To identify critical information, the red team must think like an adversary and ask what the blue team would need to stop the mission. Critical information isn’t always sensitive, but anything that could jeopardize operations if exposed. Examples include:
 
@@ -39,7 +39,7 @@ After we identify critical information, we need to analyse threats. _Threat anal
 3. What tactics, techniques, and procedures does the adversary use?
 4. What critical information has the adversary obtained, if any?
 
-<figure><img src="../.gitbook/assets/528fdefeb510a511d19fa0ba2496cc74.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/528fdefeb510a511d19fa0ba2496cc74.png" alt=""><figcaption></figcaption></figure>
 
 Here are some practical ways to reduce exposing your red team tactics and minimize OPSEC risks:
 
