@@ -270,6 +270,7 @@
   * [Vulnerability Management](blue-team/security-engineer-architect/vulnerability-management.md)
   * [Secure Network Architecture](blue-team/security-engineer-architect/secure-network-architecture.md)
   * [Linux System Hardening](blue-team/security-engineer-architect/linux-system-hardening.md)
+  * [Microsoft Windows Hardening](blue-team/security-engineer-architect/microsoft-windows-hardening.md)
   * [Network Security Protocols](blue-team/security-engineer-architect/network-security-protocols.md)
   * [Virtualization and Containers](blue-team/security-engineer-architect/virtualization-and-containers.md)
   * [1 - Attacks, Threats, and Vulnerabilities](blue-team/security-engineer-architect/1-attacks-threats-and-vulnerabilities.md)
