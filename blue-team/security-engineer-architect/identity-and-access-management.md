@@ -1,3 +1,7 @@
+---
+icon: shield-check
+---
+
 # Identity & Access Management
 
 Identity and Access Management (IAM) is a security framework that ensures the right people have the right access to the right resources at the right time. It involves managing user identities (like accounts and roles) and controlling their access to systems, applications, and data. IAM helps protect sensitive information by verifying user identities through authentication (like passwords or biometrics) and authorizing what actions they can perform. In short, it keeps systems secure while making it easier for users to access what they need safely.=

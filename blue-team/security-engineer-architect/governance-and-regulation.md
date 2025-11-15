@@ -1,3 +1,7 @@
+---
+icon: building-columns
+---
+
 # Governance & Regulation
 
 * **Governance:** Managing and directing an organisation or system to achieve its objectives and ensure compliance with laws, regulations, and standards.

@@ -1,3 +1,7 @@
+---
+icon: face-smile-horns
+---
+
 # Threat Modelling
 
 ## Threat, Vulnerability and Risk

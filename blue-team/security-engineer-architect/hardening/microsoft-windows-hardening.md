@@ -4,7 +4,7 @@ icon: windows
 
 # Microsoft Windows Hardening
 
-<figure><img src="../../.gitbook/assets/dbbd403c6b1196904312c7b88f2514f2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dbbd403c6b1196904312c7b88f2514f2.png" alt=""><figcaption></figcaption></figure>
 
 ## Updating Windows
 
@@ -24,7 +24,7 @@ To run applications safely, we can use a temporary, isolated, lightweight deskto
 Secure boot – an advanced security standard - checks that your system is running on trusted hardware and firmware before booting, which ensures that your system boots up safely while preventing unauthorised software access from taking control of your PC, like malware.\
 You are already in a secure boot environment if you run a modern PC with Unified Extensible Firmware Interface UEFI (the best replacement for BIOS) or Windows 10. You can check the status of the secure boot by following:
 
-<figure><img src="../../.gitbook/assets/7e86a928fcad06fc3a30d1e69620fa45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/7e86a928fcad06fc3a30d1e69620fa45.png" alt=""><figcaption></figcaption></figure>
 
 ## Windows Defender Firewall
 
@@ -32,7 +32,7 @@ Windows Defender Firewall is a built-in application that protects computers from
 
 ## Disable unused Networking Devices
 
-<figure><img src="../../.gitbook/assets/381409d62e6ebaf2c542849dc941f58c.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/381409d62e6ebaf2c542849dc941f58c.png" alt=""><figcaption></figcaption></figure>
 
 ## Disable SMB protocol        &#x20;
 
@@ -46,7 +46,7 @@ RestartNeeded : False
 
 ## Preventing Remote Access to Machine
 
-<figure><img src="../../.gitbook/assets/340bfd9d93e9a44e2f244fc1d2d302ea.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/340bfd9d93e9a44e2f244fc1d2d302ea.png" alt=""><figcaption></figcaption></figure>
 
 ## Mitigating Address Resolution Protocol Attack
 
@@ -58,7 +58,7 @@ Microsoft Office Suite is one of the most widely used application suites in all 
 
 AppLocker is a recently introduced feature that allows users to block specific executables, scripts, and installers from execution through a set of rules. We can easily configure them on a single PC or network through a GUI by the following method:
 
-<figure><img src="../../.gitbook/assets/7809f59c32041093a48fb49e3dea1891.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/7809f59c32041093a48fb49e3dea1891.png" alt=""><figcaption></figcaption></figure>
 
 ## Protecting the Browser through Microsoft Smart Screen
 
@@ -76,7 +76,7 @@ Identity and access management involves employing best practices to ensure that 
 
 **User Account Control (UAC)**
 
-<figure><img src="../../.gitbook/assets/5e5609be5a55c30aa42a27801c5362c4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/5e5609be5a55c30aa42a27801c5362c4.png" alt=""><figcaption></figcaption></figure>
 
 **Local Policy and Group Policies Editor**
 
