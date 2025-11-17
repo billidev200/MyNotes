@@ -15,3 +15,5 @@ Example login
 ```
 Username= (admin232 ) with space it let us this shouldnet happend or evn be able to create account
 ```
+
+**Example we make an account with name aDmin but when we try to login we login to the account with name admin**

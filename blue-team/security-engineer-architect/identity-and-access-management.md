@@ -10,6 +10,13 @@ Identity and Access Management (IAM) is a security framework that ensures the ri
 
 <figure><img src="../../.gitbook/assets/97c967ea1b1efd06260dbbf88ae5c19b.png" alt="" width="375"><figcaption></figcaption></figure>
 
+* **Identity** - the unique account (e.g., user ID/email) that represents a person or service.
+* **Authentication** - proving that identity (passwords, OTP, passkeys).
+* **Authorisation** - what that identity is allowed to do.
+* **Accountability** - recording and alerting on who did what, when, and from where.
+
+
+
 1. **Identification** is the process of verifying who the user is. It starts with the user claiming a specific identity. The identity can be represented by a unique identifier such as an email address, a username, or an ID number. Any identifier unique in the respective environment is a valid option; hence, many websites would rely on an email address for identification instead of asking the user to create a unique username.
 2. **Authentication** is the process of ensuring that the user is who they claim to be. In other words, this step is about confirming the claimed identity. One way to authenticate would be by providing the correct password. Because of potential password weaknesses, many other methods, such as asking users to type the code sent to their email, are gaining popularity.
 3. **Authorisation** determines what the user is allowed to access. In other words, they will be authorised to carry out specific operations based on their account privileges. This process is typically done by assigning roles and permissions based on the user’s job function or level of clearance. The risk of unauthorised access or data breaches is reduced by restricting access to only the resources necessary for the user to perform their duties.

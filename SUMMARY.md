@@ -278,6 +278,7 @@
     * [Network Device Hardening](blue-team/security-engineer-architect/hardening/network-device-hardening.md)
   * [Virtualization and Containers](blue-team/security-engineer-architect/virtualization-and-containers.md)
   * [Cloud Security](blue-team/security-engineer-architect/cloud-security.md)
+  * [DAST](blue-team/security-engineer-architect/dast.md)
   * [1 - Attacks, Threats, and Vulnerabilities](blue-team/security-engineer-architect/1-attacks-threats-and-vulnerabilities.md)
   * [4 - Governance, Risk, and Compliance](blue-team/security-engineer-architect/4-governance-risk-and-compliance.md)
   * [2 - Architecture and Design](blue-team/security-engineer-architect/2-architecture-and-design.md)
