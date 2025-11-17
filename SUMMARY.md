@@ -270,6 +270,7 @@
   * [Threat Modelling](blue-team/security-engineer-architect/threat-modelling.md)
   * [Risk Management](blue-team/security-engineer-architect/risk-management.md)
   * [Vulnerability Management](blue-team/security-engineer-architect/vulnerability-management.md)
+  * [Auditing and Monitoring](blue-team/security-engineer-architect/auditing-and-monitoring.md)
   * [Hardening](blue-team/security-engineer-architect/hardening/README.md)
     * [Active Directory Hardening](blue-team/security-engineer-architect/hardening/active-directory-hardening.md)
     * [Linux System Hardening](blue-team/security-engineer-architect/hardening/linux-system-hardening.md)
