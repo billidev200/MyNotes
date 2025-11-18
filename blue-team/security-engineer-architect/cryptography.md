@@ -1,3 +1,7 @@
+---
+icon: binary-lock
+---
+
 # Cryptography
 
 Symmetric Encryption,Hashing Asymmetric Encryption ,Hashing

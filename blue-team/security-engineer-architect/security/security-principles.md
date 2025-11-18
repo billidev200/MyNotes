@@ -2,7 +2,7 @@
 
 ## CIA
 
-<figure><img src="../../.gitbook/assets/58a85d2e5942ebf3e78eb01c82f563be.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/58a85d2e5942ebf3e78eb01c82f563be.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Confidentiality** ensures that only the intended persons or recipients can access the data.
 * **Integrity** aims to ensure that the data cannot be altered; moreover, we can detect any alteration if it occurs.
@@ -10,7 +10,7 @@
 
 ## DAD
 
-<figure><img src="../../.gitbook/assets/1742c9b384adb60b896481b2416d2f8a.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1742c9b384adb60b896481b2416d2f8a.png" alt="" width="563"><figcaption></figcaption></figure>
 
 The security of a system is attacked through one of several means. It can be via the disclosure of secret data, alteration of data, or destruction of data.
 

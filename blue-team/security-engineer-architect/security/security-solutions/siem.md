@@ -56,7 +56,7 @@ Network-related logs are generated when the hosts communicate with each other or
 * A user accessing company's resources through VPN.
 * Network file sharing Activity
 
-<figure><img src="../../../.gitbook/assets/63724f4da84dd3cfbaf2937790910e20.png" alt="" width="550"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/63724f4da84dd3cfbaf2937790910e20.png" alt="" width="550"><figcaption></figcaption></figure>
 
 * Real-time log Ingestion
 * Alerting against abnormal activities
@@ -78,7 +78,7 @@ Linux OS stores all the related logs, such as events, errors, warnings, etc. Whi
 
 Windows records every event that can be viewed through the Event Viewer utility. It assigns a unique ID to each type of log activity, making it easy for the analyst to examine and keep track of. To view events in a Windows environment, type `Event Viewer` in the search bar, and it takes you to the tool where different logs are stored and can be viewed, as shown below. These logs from all windows endpoints are forwarded to the SIEM solution for monitoring and better visibility.
 
-<figure><img src="../../../.gitbook/assets/30beed26fc514cb7f52773b88a4510b9.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/30beed26fc514cb7f52773b88a4510b9.gif" alt=""><figcaption></figcaption></figure>
 
 ## Dashboard
 
@@ -94,7 +94,7 @@ Dashboards are the most important components of any SIEM. SIEM presents the data
 
 An example of a Default dashboard in Qradar SIEM is shown below:
 
-<figure><img src="../../../.gitbook/assets/24f94de3e052afd4702440c06e81e622.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/24f94de3e052afd4702440c06e81e622.png" alt=""><figcaption></figcaption></figure>
 
 ## !!! Correlation Rules !!!
 

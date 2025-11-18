@@ -1,3 +1,7 @@
+---
+icon: fingerprint
+---
+
 # OPSEC
 
 Operations Security (OPSEC) is a term coined by the United States military. In the field of cybersecurity, let’s start with the definition provided by [NIST](https://csrc.nist.gov/glossary/term/opsec):
