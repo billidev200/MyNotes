@@ -12,21 +12,17 @@ Hypervisors are separated into two categories that are determined by their posit
 
 ### Type 1 Hypervisors
 
-**Type 1 hypervisors**, also known as **bare metal hypervisors**, create an abstraction layer directly between hardware and virtual machines without a common operating system between them. Instead, the hypervisor is the operating system and is often _headless_, with only a web-based management portal remotely accessed. These hypervisors are designed for scale and to deploy a large number of virtual machines at once. They are extremely lightweight to dedicate the most resources to virtual machines. Below is a diagram of a type 1 hypervisor architecture.\
+**Type 1 hypervisors**, also known as **bare metal hypervisors**, create an abstraction layer directly between hardware and virtual machines without a common operating system between them. Instead, the hypervisor is the operating system and is often _headless_, with only a web-based management portal remotely accessed. These hypervisors are designed for scale and to deploy a large number of virtual machines at once. They are extremely lightweight to dedicate the most resources to virtual machines. Below is a diagram of a type 1 hypervisor architecture.<br>
 
-
-![A diagram of a type 1 hypervisor](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e73cca6ec4fcf1309f2df86/room-content/10f4dce97b527ea3d144442b2190270c.png)\
-
+![A diagram of a type 1 hypervisor](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e73cca6ec4fcf1309f2df86/room-content/10f4dce97b527ea3d144442b2190270c.png)<br>
 
 Examples of type 1 hypervisors include VMware ESXi, Proxmox, VMware vSphere, Xen, and KVM.
 
 ### Type 2 Hypervisors
 
-**Type 2 hypervisors**, also known as hosted hypervisors, create an abstraction layer from a software application built on top of a pre-existing operating system. Unlike type 1 hypervisors, type 2 hypervisors are often managed directly from the application through a GUI. These hypervisors are often designed for end-users or individuals such as developers and are not strictly designed to run a large number of virtual machines for scale. Below is a diagram of a type 2 hypervisor architecture.\
+**Type 2 hypervisors**, also known as hosted hypervisors, create an abstraction layer from a software application built on top of a pre-existing operating system. Unlike type 1 hypervisors, type 2 hypervisors are often managed directly from the application through a GUI. These hypervisors are often designed for end-users or individuals such as developers and are not strictly designed to run a large number of virtual machines for scale. Below is a diagram of a type 2 hypervisor architecture.<br>
 
-
-<img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5e73cca6ec4fcf1309f2df86/room-content/44d3a52445a0194a28eb710bf16f52d6.png" alt="A diagram of a type 2 hypervisor" data-size="original">\
-
+<img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5e73cca6ec4fcf1309f2df86/room-content/44d3a52445a0194a28eb710bf16f52d6.png" alt="A diagram of a type 2 hypervisor" data-size="original"><br>
 
 Examples of type 2 hypervisors include VMware Workstation, VMware Fusion, VirtualBox, Parallels, and QEMU.
 

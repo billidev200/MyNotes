@@ -174,8 +174,7 @@ An example of this is [CVE-2021-40444](https://msrc.microsoft.com/update-guide/v
 
 <figure><img src="../../.gitbook/assets/cancel-order.png" alt=""><figcaption></figcaption></figure>
 
-This email sample will highlight the following techniques:\
-
+This email sample will highlight the following techniques:<br>
 
 1. Spoofed email address
 2. Pixel tracking

@@ -14,7 +14,6 @@ Using the correct payload, the attacker's JavaScript could make calls back to an
 
 When testing for Blind XSS vulnerabilities, you need to ensure your payload has a call back (usually an HTTP request). This way, you know if and when your code is being executed.
 
-**Popular Tool for blind XSS**\
-
+**Popular Tool for blind XSS**<br>
 
 {% embed url="https://github.com/mandatoryprogrammer/xsshunter-express" %}
