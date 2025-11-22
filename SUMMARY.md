@@ -37,7 +37,7 @@
       * [Port Scanning](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/port-scanning/README.md)
         * [Internal Network Scan](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/port-scanning/internal-network-scan.md)
         * [Ping sweep](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/port-scanning/ping-sweep.md)
-      * [WAF/IDS/IPS Enumaration - Detection - Invasion/Byapass](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/waf-ids-ips-enumaration-detection-invasion-byapass.md)
+      * [WAF/IDS/IPS Enumaration - Detection - evasion/Byapass](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/waf-ids-ips-enumaration-detection-evasion-byapass.md)
       * [Vulnerability Scanning](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/vulnerability-scanning.md)
       * [Services - Ports Enumeration](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/README.md)
         * [DNS/53 Enumeration - Interrogation](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/dns-53-enumeration-interrogation/README.md)
