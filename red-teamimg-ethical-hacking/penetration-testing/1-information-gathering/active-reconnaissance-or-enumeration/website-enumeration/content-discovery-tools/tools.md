@@ -6,7 +6,7 @@
 
 ## **Wappalyzer**
 
-<figure><img src="../../../../../../.gitbook/assets/images.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/images (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Caido
 
