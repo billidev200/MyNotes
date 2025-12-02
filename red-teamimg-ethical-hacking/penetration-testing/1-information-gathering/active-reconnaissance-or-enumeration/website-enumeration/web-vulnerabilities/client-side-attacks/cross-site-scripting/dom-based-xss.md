@@ -18,3 +18,5 @@ The website's JavaScript gets the contents from the `window.location.hash` param
 ```
 https://realwebsite.com#<img src=1 onerror=alert(1)></img>
 ```
+
+{% embed url="https://github.com/wisec/domxsswiki/wiki" %}
