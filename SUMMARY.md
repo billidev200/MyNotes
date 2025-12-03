@@ -59,6 +59,7 @@
         * [WebDAV Enumeration](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/webdav-enumeration.md)
         * [Service Bruteforce](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/services-ports-enumeration/service-bruteforce.md)
       * [Website Enumeration](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/website-enumeration/README.md)
+        * [Cookies](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/website-enumeration/cookies.md)
         * [Web Basics](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/website-enumeration/web-basics.md)
         * [Content Discovery - Tools](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/website-enumeration/content-discovery-tools/README.md)
           * [Curl - Wget](red-teamimg-ethical-hacking/penetration-testing/1-information-gathering/active-reconnaissance-or-enumeration/website-enumeration/content-discovery-tools/curl-wget.md)

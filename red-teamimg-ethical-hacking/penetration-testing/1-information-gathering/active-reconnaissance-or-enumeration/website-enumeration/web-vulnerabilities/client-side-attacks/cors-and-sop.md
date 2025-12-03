@@ -4,6 +4,18 @@
 
 {% embed url="https://www.youtube.com/watch?v=4KHiSt0oLJ0" %}
 
+{% hint style="warning" %}
+If CORS is misconfigured, an attacker’s website can send authenticated requests to a victim website **using the victim’s cookies or tokens**.\
+This means the attacker may read:
+
+* Personal information
+* Payment details
+* Account settings
+* Session data
+
+All without the user knowing.
+{% endhint %}
+
 ## Understanding SOP
 
 Same-origin policy or SOP is a policy that instructs how web browsers interact between web pages. According to this policy, a script on one web page can access data on another only if both pages share the same origin. This "origin" is identified by combining the URI scheme, hostname, and port number. The image below shows what a URL looks like with all its features (it does not use all features in every request).
@@ -38,3 +50,32 @@ CORS is commonly applied in scenarios such as:
 2. The server then checks the Origin header against its list of allowed origins.
 3. If the origin is allowed, the server responds with the appropriate `Access-Control-Allow-Origin` header.
 4. The browser will block the cross-origin request if the origin is not allowed.
+
+## ACAO in depth
+
+The Access-Control-Allow-Origin or ACAO header is a crucial component of the Cross-Origin Resource Sharing (CORS) policy. It is used by servers to indicate whether the resources on a website can be accessed by a web page from a different origin. This header is part of the HTTP response provided by the server.
+
+When a browser makes a cross-origin request, it includes the origin of the requesting site in the HTTP request. The server then checks this origin against its CORS policy. If the origin is permitted, the server includes the `Access-Control-Allow-Origin` header in the response, specifying either the allowed origin or a wildcard (`*`), which means any origin is allowed.
+
+**ACAO Configurations**
+
+1. **Single Origin**:
+   * Configuration: `Access-Control-Allow-Origin: https://example.com`
+   * Implication: Only requests originating from `https://example.com` are allowed. This is a secure configuration, as it restricts access to a known, trusted origin.
+2. **Multiple Origins**:
+   * Configuration: Dynamically set based on a list of allowed origins.
+   * Implication: Allows requests from a specific set of origins. While this is more flexible than a single origin, it requires careful management to ensure that only trusted origins are included.
+3. **Wildcard Origin**:
+   * Configuration: `Access-Control-Allow-Origin: *`
+   * Implication: Permits requests from any origin. This is the least secure configuration and should be used cautiously. It's appropriate for publicly accessible resources that don't contain sensitive information.
+4. **With Credentials**:
+   * Configuration: `Access-Control-Allow-Origin` set to a specific origin (wildcards not allowed), along with `Access-Control-Allow-Credentials: true`
+   * Implication: Allows sending of credentials, such as cookies and HTTP authentication data, to be included in cross-origin requests. However, it's important to note that browsers will send cookies and authentication data without the Access-Control-Allow-Credentials header for simple requests like some GET and POST requests. For preflight requests that use methods other than GET/POST or custom headers, the Access-Control-Allow-Credentials header must be true for the browser to send credentials.
+
+## Common Misconfigurations
+
+1. **Null Origin Misconfiguration:** This occurs when a server accepts requests from the "null" origin. This can happen in scenarios where the origin of the request is not a standard browser environment, like from a file (`file://`) or a data URL. An attacker could craft a phishing email with a link to a malicious HTML file. When the victim opens the file, it can send requests to the vulnerable server, which incorrectly accepts these as coming from a 'null' origin. Servers should be configured to explicitly validate and not trust the 'null' origin unless necessary and understood.
+2. **Bad Regex in Origin Checking:** Improperly configured regular expressions in origin checking can lead to accepting requests from unintended origins. For example, a regex like `/example.com$/` would mistakenly allow `badexample.com`. An attacker could register a domain that matches the flawed regex and create a malicious site to send requests to the target server. Another example of lousy regex could be related to subdomains. For example, if domains starting with `example.com` is allowed, an attacker could use `example.com.attacker123.com`. The application should ensure that regex patterns used for validating origins are thoroughly tested and specific enough to exclude unintended matches.
+3. **Trusting Arbitrary Supplied Origin:** Some servers are configured to echo back the `Origin` header value in the `Access-Control-Allow-Origin` response header, effectively allowing any origin. An attacker can craft a custom HTTP request with a controlled origin. Since the server echoes this origin, the attacker's site can bypass the SOP restrictions. Instead of echoing back origins, maintain an allowlist of allowed origins and validate against it.
+
+<figure><img src="../../../../../../../.gitbook/assets/d378a6adb3fe3a15bc9e64dbaa680a40.png" alt=""><figcaption></figcaption></figure>
