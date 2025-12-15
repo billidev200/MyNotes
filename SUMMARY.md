@@ -310,7 +310,7 @@
 
 ## Networking
 
-* [Page 1](networking/page-1.md)
+* [Trading](networking/trading.md)
 
 ## Tools
 
