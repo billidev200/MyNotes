@@ -8,6 +8,8 @@ description: >-
 
 #### 🛡️ Zone Transfer in Hacking / Pentesting
 
+A DNS zone transfer (AXFR/IXFR) is a mechanism used to replicate DNS databases (zone files) from a primary DNS server to secondary servers, ensuring consistency and high availability using TCP port 53. It allows secondary servers to act as read-only backups. Misconfigured, open transfers can expose sensitive network topology to attackers.
+
 In hacking or penetration testing, a **Zone Transfer (AXFR)** is a technique used during **reconnaissance** to extract **all DNS records** for a domain — including subdomains, mail servers, and internal hosts.
 
 🧨 Why Zone Transfer Matters in Hacking

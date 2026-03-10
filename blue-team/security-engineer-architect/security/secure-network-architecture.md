@@ -16,3 +16,7 @@ Common Secure Network Architecture
 | <p>Restricted<br></p>               | <p>Any high-risk servers or databases. <br></p>                                                                                                              | <p>Domain controllers, client information<br></p>    |
 | <p>Management<br></p>               | <p>Any devices or services dedicated to network or other device management. This zone is less commonly seen and can be grouped with the audit zone. <br></p> | <p>Virtualization management, backup servers<br></p> |
 | <p>Audit<br></p>                    | <p>Any devices or services dedicated to security or monitoring. This zone is less commonly seen and can be grouped with management.<br></p>                  | SIEM, telemetry                                      |
+
+Demilitarized Zone (DMZ)
+
+<figure><img src="../../../.gitbook/assets/df4d771470f80491ece99e42ee574ebf.png" alt=""><figcaption></figcaption></figure>
