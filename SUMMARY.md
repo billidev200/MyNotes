@@ -218,6 +218,7 @@
     * [Clearing Tracks](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/clearing-tracks/README.md)
       * [Windows](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/clearing-tracks/windows.md)
       * [Linux](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/clearing-tracks/linux.md)
+    * [Windows Internals](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/windows-internals.md)
     * [(C2) Frameworks](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/c2-frameworks/README.md)
       * [Powershell Empire](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/c2-frameworks/powershell-empire.md)
       * [Armitage](red-teamimg-ethical-hacking/penetration-testing/3-post-exploitation/c2-frameworks/armitage.md)
