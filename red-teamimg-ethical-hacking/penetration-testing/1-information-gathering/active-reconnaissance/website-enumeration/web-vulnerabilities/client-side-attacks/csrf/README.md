@@ -57,7 +57,7 @@ Even though Flash is no longer supported, a talk about Flash-based cross-site re
 
 ## Double Submit Cookie Bypass
 
-<figure><img src="../../../../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 How it works
 
