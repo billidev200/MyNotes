@@ -168,11 +168,11 @@ The following table contains well-known and commonly used AV software.&#x20;
 | Panda              | PavPrSvr                          | PavPrSvr.exe                       |
 | Avast              | Avast Antivirus                   | afwServ.exe, AvastSvc.exe          |
 
-One way to fingerprint AV is by using public tools such as [SharpEDRChecker(opens in new tab)](https://github.com/PwnDexter/SharpEDRChecker). It is written in C# and performs various checks on a target machine, including checks for AV software, like running processes, files' metadata, loaded DLL files, Registry keys, services, directories, and files.
+One way to fingerprint AV is by using public tools such as [SharpEDRChecker](https://github.com/PwnDexter/SharpEDRChecker). It is written in C# and performs various checks on a target machine, including checks for AV software, like running processes, files' metadata, loaded DLL files, Registry keys, services, directories, and files.
 
-We have pre-downloaded the SharpEDRChecker from the [GitHub repo(opens in new tab)](https://github.com/PwnDexter/SharpEDRChecker) so that we can use it in the attached VM. Now we need to compile the project, and we have already created a shortcut to the project on the desktop (SharpEDRChecker). To do so, double-click on it to open it in Microsoft Visual Studio 2022. Now that we have our project ready, we need to compile it, as shown in the following screenshot:
+To do so, double-click on it to open it in Microsoft Visual Studio 2022. Now that we have our project ready, we need to compile it, as shown in the following screenshot:
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 C# Fingerprint checks
 
